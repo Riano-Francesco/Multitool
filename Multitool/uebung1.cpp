@@ -18,6 +18,7 @@ void uebung1()
 	cout << "   | 2 | Hello World!         |" << endl;
 	cout << "   | 3 | Einfache Ausgabe     |" << endl;
 	cout << "   | 4 | 2 Werte ausgeben     |" << endl;
+	cout << "   | 5 | Spaltenbreite        |" << endl;
 	cout << "   +---+----------------------+" << endl;
 	cout << endl;
 
@@ -51,6 +52,12 @@ void uebung1()
 	case 4:
 		system("CLS");
 		werte2();
+		system("CLS");
+		break;
+
+	case 5:
+		system("CLS");
+		SpaltenBreite();
 		system("CLS");
 		break;
 

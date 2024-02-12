@@ -54,6 +54,9 @@
     <ClCompile Include="MehrfachEingabe.cpp">
       <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="Spaltenbreite.cpp">
+      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

@@ -9,6 +9,7 @@ void dice();
 void hello();
 void Eausgabe();
 void werte2();
+void SpaltenBreite();
 
 bool wiederholung();
 
