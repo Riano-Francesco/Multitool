@@ -16,5 +16,5 @@ int ifA2(int a, int b) {
 		cout << erg << " ist größer als 20\n\n\n";
 	}
 
-	return (erg);
+	return (a + b);
 }
