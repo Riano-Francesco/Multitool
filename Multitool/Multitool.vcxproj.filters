@@ -57,7 +57,7 @@
     <ClCompile Include="MehrfachEingabe.cpp">
       <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
     </ClCompile>
-    <ClCompile Include="Spaltenbreite.cpp">
+    <ClCompile Include="SpaltenbreiteETC.cpp">
       <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="uebung2.cpp">

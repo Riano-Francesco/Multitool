@@ -1,5 +1,7 @@
 #include <iostream>
 #include <windows.h>
+#include <iomanip>
+
 
 #include "func.h"		//Headerfile selbst erstellt
 
@@ -15,10 +17,6 @@ void uebung2()
 
 	cout << "   +---+----------------------+" << endl;
 	cout << "   | 1 | Würfeln              |" << endl;
-	cout << "   | 2 | Hello World!         |" << endl;
-	cout << "   | 3 | Einfache Ausgabe     |" << endl;
-	cout << "   | 4 | 2 Werte ausgeben     |" << endl;
-	cout << "   | 5 | Spaltenbreite        |" << endl;
 	cout << "   +---+----------------------+" << endl;
 	cout << endl;
 
@@ -37,29 +35,7 @@ void uebung2()
 		system("CLS");
 		break;
 
-	case 2:
-		system("CLS");
-		hello();
-		system("CLS");
-		break;
 
-	case 3:
-		system("CLS");
-		Eausgabe();
-		system("CLS");
-		break;
-
-	case 4:
-		system("CLS");
-		werte2();
-		system("CLS");
-		break;
-
-	case 5:
-		system("CLS");
-		SpaltenBreite();
-		system("CLS");
-		break;
 
 	case 0:
 		cout << "Programm wird beendet." << endl;
