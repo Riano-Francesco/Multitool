@@ -75,6 +75,9 @@
     <ClCompile Include="ifAnweisung2.cpp">
       <Filter>Quelldateien\Aufgaben\13.02.24\If-Übung</Filter>
     </ClCompile>
+    <ClCompile Include="fläche.cpp">
+      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fläche.cpp" />
     <ClCompile Include="ifAnweisung1.cpp" />
     <ClCompile Include="ifAnweisung2.cpp" />
     <ClCompile Include="MehrfachEingabe.cpp" />

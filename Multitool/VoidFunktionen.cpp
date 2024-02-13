@@ -27,5 +27,5 @@ void voids() {
 		system("CLS");
 	} while (abbruch);
 
-	uebung1();
+	uebung2();
 }

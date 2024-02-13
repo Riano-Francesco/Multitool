@@ -94,6 +94,7 @@ void uebung2()
 	cout << "   | 1 | Void Funktion                    |" << endl;
 	cout << "   | 2 | Unterfunktion                    |" << endl;
 	cout << "   | 3 | Summe durch Unterprogramm        |" << endl;
+	cout << "   | 4 | Fläche Länge x Breite            |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -121,6 +122,12 @@ void uebung2()
 	case 3:
 		system("CLS");
 		ifA1();
+		system("CLS");
+		break;
+
+	case 4:
+		system("CLS");
+		flaeche();
 		system("CLS");
 		break;
 

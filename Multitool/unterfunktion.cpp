@@ -32,5 +32,5 @@ void UnterFunk() {
 		system("CLS");
 	} while (abbruch);
 
-	uebung1();
+	uebung2();
 }

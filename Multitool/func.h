@@ -17,6 +17,7 @@ void SpaltenBreite();
 void uebung2();
 void voids();
 void UnterFunk();
+void flaeche();
 // If-Übung
 void ifA1();
 int ifA2(int, int);

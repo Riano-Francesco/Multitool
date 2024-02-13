@@ -26,5 +26,5 @@ void ifA1() {
 		system("CLS");
 	} while (abbruch);
 
-	uebung1();
+	uebung2();
 }
