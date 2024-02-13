@@ -63,6 +63,12 @@
     <ClCompile Include="uebung2.cpp">
       <Filter>Quelldateien\Menüs\Untermenü</Filter>
     </ClCompile>
+    <ClCompile Include="VoidFunktionen.cpp">
+      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Unterfunktion.cpp">
+      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

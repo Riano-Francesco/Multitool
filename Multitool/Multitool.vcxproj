@@ -134,6 +134,8 @@
     <ClCompile Include="core.cpp" />
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="uebung2.cpp" />
+    <ClCompile Include="Unterfunktion.cpp" />
+    <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
     <ClCompile Include="uebung1.cpp" />

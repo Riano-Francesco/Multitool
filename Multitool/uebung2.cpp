@@ -16,7 +16,8 @@ void uebung2()
 	cout << "Übungen vom 13.02.24" << endl << endl;
 
 	cout << "   +---+----------------------+" << endl;
-	cout << "   | 1 | Würfeln              |" << endl;
+	cout << "   | 1 | Void Funktion        |" << endl;
+	cout << "   | 2 | Unterfunktion        |" << endl;
 	cout << "   +---+----------------------+" << endl;
 	cout << endl;
 
@@ -31,9 +32,17 @@ void uebung2()
 	{
 	case 1:
 		system("CLS");
-		dice();
+		voids();
 		system("CLS");
 		break;
+
+	case 2:
+		system("CLS");
+		UnterFunk();
+		system("CLS");
+		break;
+
+
 
 
 
