@@ -18,6 +18,8 @@ void uebung2();
 void voids();
 void UnterFunk();
 
+void ifA1();
+int ifA2(int, int);
 
 
 

@@ -127,13 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ifAnweisung1.cpp" />
+    <ClCompile Include="ifAnweisung2.cpp" />
     <ClCompile Include="MehrfachEingabe.cpp" />
     <ClCompile Include="funktionen.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="core.cpp" />
     <ClCompile Include="SpaltenbreiteETC.cpp" />
-    <ClCompile Include="uebung2.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
