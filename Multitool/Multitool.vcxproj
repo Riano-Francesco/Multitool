@@ -139,7 +139,7 @@
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
-    <ClCompile Include="uebung1.cpp" />
+    <ClCompile Include="uebungsmenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />
