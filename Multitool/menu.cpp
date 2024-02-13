@@ -35,7 +35,7 @@ void menu()
 
 	case 2:
 		system("CLS");
-		hello();
+		void uebung2();
 		system("CLS");
 		break;
 

@@ -133,6 +133,7 @@
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="core.cpp" />
     <ClCompile Include="Spaltenbreite.cpp" />
+    <ClCompile Include="uebung2.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
     <ClCompile Include="uebung1.cpp" />

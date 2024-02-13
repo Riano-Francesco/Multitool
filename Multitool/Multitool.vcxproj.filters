@@ -28,6 +28,9 @@
     <Filter Include="Quelldateien\Menüs\Untermenü">
       <UniqueIdentifier>{b5fdf98b-ff13-4c75-a079-6d95be868576}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\13.02.24">
+      <UniqueIdentifier>{de9c3b58-c4e4-4026-8961-1a64e5c2b607}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -56,6 +59,9 @@
     </ClCompile>
     <ClCompile Include="Spaltenbreite.cpp">
       <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="uebung2.cpp">
+      <Filter>Quelldateien\Menüs\Untermenü</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
