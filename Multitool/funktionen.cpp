@@ -13,8 +13,18 @@ bool wiederholung()
 	return abbruch;
 }
 
+
+
+
 /*	
 	sind UNGLEICH -> else -> können nur noch gleich sein -> eine Bedingung reicht für die 3te Variante
+
+	int max = 0;
+	int moritz = 0;
+
+	cout << "Bitte geben Sie zwei Zahlen ein: ";
+	cin >> max >> moritz;
+
 
 	if (max != moritz) { 
 
