@@ -34,6 +34,9 @@
     <Filter Include="Quelldateien\Aufgaben\13.02.24\If-Übung">
       <UniqueIdentifier>{19ae0d37-bcac-4221-bdf3-34488ad820d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\14.02.24">
+      <UniqueIdentifier>{4e2f8fb4-6953-4ff1-b95c-db09dfc6fb18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -54,7 +57,7 @@
     <ClCompile Include="Wuerfeln.cpp">
       <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
     </ClCompile>
-    <ClCompile Include="uebungsmenu.cpp">
+    <ClCompile Include="uebungsmenus.cpp">
       <Filter>Quelldateien\Menüs\Untermenü</Filter>
     </ClCompile>
     <ClCompile Include="MehrfachEingabe.cpp">
