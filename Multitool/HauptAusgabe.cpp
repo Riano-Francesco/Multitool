@@ -25,12 +25,14 @@ void HauptAusgabe() {
 		sum = summe(wert1, wert2);
 
 		if (sum < 20) {
+
 			cout << sum << " ist kleiner als 20!\n";
 			sumq = quadrat(sum);
 
 			cout << "Das Quadrat aus " << sum << " ist " << sumq << endl;
 		}
 		else {
+
 			cout << sum << " ist groesser gleich 20!\n";
 			sumq = quadrat(quadrat(sum));
 
