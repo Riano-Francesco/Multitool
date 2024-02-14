@@ -37,7 +37,7 @@
     <Filter Include="Quelldateien\Aufgaben\14.02.24">
       <UniqueIdentifier>{4e2f8fb4-6953-4ff1-b95c-db09dfc6fb18}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\14.02.24\2 Unterprogramme">
+    <Filter Include="Quelldateien\Aufgaben\14.02.24\3 Unterprogramme">
       <UniqueIdentifier>{e8225741-022c-468d-a2c0-250bb4d5018e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -85,13 +85,16 @@
       <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
     </ClCompile>
     <ClCompile Include="VoidSumme.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\2 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="VoidQuadrat.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\2 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="HauptAusgabe.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\2 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidQuadro.cpp">
+      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

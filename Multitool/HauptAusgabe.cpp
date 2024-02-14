@@ -34,7 +34,7 @@ void HauptAusgabe() {
 		else {
 
 			cout << sum << " ist groesser gleich 20!\n";
-			sumq = quadrat(quadrat(sum));
+			sumq = quadro(sum);
 
 			cout << "Das Quadrat aus Quadrat ist " << sumq << endl << endl;
 		}

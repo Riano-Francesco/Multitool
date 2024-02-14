@@ -140,6 +140,7 @@
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="VoidQuadrat.cpp" />
+    <ClCompile Include="VoidQuadro.cpp" />
     <ClCompile Include="VoidSumme.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />

@@ -159,7 +159,7 @@ void uebung3()
 	cout << "Übungen vom 14.02.24" << endl << endl;
 
 	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Ausgabe 2 Unterprogramme         |" << endl;
+	cout << "   | 1 | Ausgabe mit 3 Unterprogrammen    |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 

@@ -28,6 +28,7 @@ void uebung3();
 void HauptAusgabe();
 int quadrat(int);
 int summe(int, int);
+int quadro(int);
 
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
