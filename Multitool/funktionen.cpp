@@ -12,3 +12,19 @@ bool wiederholung()
 
 	return abbruch;
 }
+
+/*	
+	sind UNGLEICH -> else -> können nur noch gleich sein -> eine Bedingung reicht für die 3te Variante
+
+	if (max != moritz) { 
+
+		cout << "Die Zahlen sind ungleich und die Summe /  2 ist: " << (double)(max + moritz) / 2 << endl;
+	} else {
+		cout << "Es gibt nichts zu tun";
+
+		if (max < 0) {
+			cout << ", die Zahlen sind kleiner Null.";
+		}
+		cout << endl;
+	}
+*/
