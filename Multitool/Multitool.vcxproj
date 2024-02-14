@@ -139,9 +139,9 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
-    <ClCompile Include="VoidQuadrat.cpp" />
-    <ClCompile Include="VoidQuadro.cpp" />
-    <ClCompile Include="VoidSumme.cpp" />
+    <ClCompile Include="IntQuadrat.cpp" />
+    <ClCompile Include="IntQuadro.cpp" />
+    <ClCompile Include="IntSumme.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
     <ClCompile Include="uebungsmenus.cpp" />

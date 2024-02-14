@@ -84,16 +84,16 @@
     <ClCompile Include="fläche.cpp">
       <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
     </ClCompile>
-    <ClCompile Include="VoidSumme.cpp">
+    <ClCompile Include="IntSumme.cpp">
       <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
-    <ClCompile Include="VoidQuadrat.cpp">
+    <ClCompile Include="IntQuadrat.cpp">
       <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="HauptAusgabe.cpp">
       <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
-    <ClCompile Include="VoidQuadro.cpp">
+    <ClCompile Include="IntQuadro.cpp">
       <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
   </ItemGroup>
