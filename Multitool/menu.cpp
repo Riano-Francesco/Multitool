@@ -16,6 +16,7 @@ void menu()
 	cout << "   +---+-------------------+" << endl;
 	cout << "   | 1 | 12.02.24          |" << endl;
 	cout << "   | 2 | 13.02.24          |" << endl;
+	cout << "   | 3 | 14.02.24          |" << endl;
 	cout << "   +---+-------------------+" << endl;
 	cout << endl;
 
@@ -38,6 +39,13 @@ void menu()
 		uebung2();
 		system("CLS");
 		break;
+
+	case 3:
+		system("CLS");
+		uebung3();
+		system("CLS");
+		break;
+
 
 	case 0:
 		cout << "Programm wird beendet." << endl;

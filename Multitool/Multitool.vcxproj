@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="fläche.cpp" />
+    <ClCompile Include="HauptAusgabe.cpp" />
     <ClCompile Include="ifAnweisung1.cpp" />
     <ClCompile Include="ifAnweisung2.cpp" />
     <ClCompile Include="MehrfachEingabe.cpp" />
@@ -138,6 +139,8 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
+    <ClCompile Include="VoidQuadrat.cpp" />
+    <ClCompile Include="VoidSumme.cpp" />
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
     <ClCompile Include="uebungsmenus.cpp" />

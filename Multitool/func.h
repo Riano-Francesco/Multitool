@@ -22,7 +22,12 @@ void flaeche();
 void ifA1();
 int ifA2(int, int);
 
-
+//14.02.24
+void uebung3();
+//2 Unterprogramme
+void HauptAusgabe();
+int quadrat(int);
+int summe(int, int);
 
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
