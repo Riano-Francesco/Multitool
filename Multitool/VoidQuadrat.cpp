@@ -7,8 +7,5 @@ using namespace std;
 
 int quadrat(int a) {
 
-	int sum2;
-	sum2 = a * a;
-
-	return sum2;
+	return a * a;
 }

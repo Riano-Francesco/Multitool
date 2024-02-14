@@ -29,14 +29,14 @@ void HauptAusgabe() {
 			cout << sum << " ist kleiner als 20!\n";
 			sumq = quadrat(sum);
 
-			cout << "Das Quadrat aus " << sum << " ist " << sumq << endl;
+			cout << "Das Quadrat aus " << sum << " ist " << sumq << endl << endl;
 		}
 		else {
 
 			cout << sum << " ist groesser gleich 20!\n";
 			sumq = quadrat(quadrat(sum));
 
-			cout << "Das Quadrat aus Quadrat ist " << sumq << endl;
+			cout << "Das Quadrat aus Quadrat ist " << sumq << endl << endl;
 		}
 
 		abbruch = wiederholung();

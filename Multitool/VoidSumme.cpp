@@ -7,8 +7,5 @@ using namespace std;
 
 int summe(int a, int b) {
 
-	int sum1;
-	sum1 = a + b;
-
-	return sum1;
+	return  a + b;
 }
