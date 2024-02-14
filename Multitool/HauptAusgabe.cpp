@@ -18,6 +18,7 @@ void HauptAusgabe() {
 
 		cout << "Bitte geben Sie die erste Zahl an: ";
 		cin >> wert1;
+
 		cout << "Bitte geben Sie die zweite Zahl an: ";
 		cin >> wert2;
 

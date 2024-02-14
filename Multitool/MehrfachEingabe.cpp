@@ -17,6 +17,7 @@ void werte2() {
 
 		cout << "Bitte 2 Werte eingeben:\n\n\n";
 		cin >> a >> b;
+
 		cout << "Sie haben " << a << " und " << b << " eingegeben!\n\n\n";
 
 		abbruch = wiederholung();

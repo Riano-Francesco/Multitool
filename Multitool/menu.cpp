@@ -51,6 +51,7 @@ void menu()
 		cout << "Programm wird beendet." << endl;
 		Sleep(1000);
 		break;
+
 	default:
 		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
 		break;

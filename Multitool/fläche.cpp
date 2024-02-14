@@ -9,6 +9,7 @@ void m2(double l, double b) {
 
 	double flaeche;
 	flaeche = l * b;
+
 	cout << "Die Fläche beträgt " << flaeche << " m²\n\n" << endl;
 
 }
@@ -23,8 +24,10 @@ bool abbruch;
 
 	double wert1;
 	double wert2;
+
 	cout << "Bitte geben Sie die Länge an: ";
 	cin >> wert1; cout << "\n";
+
 	cout << "Bitte geben Sie die Breite an: ";
 	cin >> wert2; cout << "\n";
 

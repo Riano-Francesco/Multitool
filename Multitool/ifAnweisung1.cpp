@@ -17,6 +17,7 @@ void ifA1() {
 
 		cout << "Geben sie eine Zahl ein: ";
 		cin >> a;
+
 		cout << "Geben sie eine weitere Zahl ein: ";
 		cin >> b;
 
