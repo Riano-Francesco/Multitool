@@ -131,6 +131,7 @@
     <ClCompile Include="HauptAusgabe.cpp" />
     <ClCompile Include="ifAnweisung1.cpp" />
     <ClCompile Include="ifAnweisung2.cpp" />
+    <ClCompile Include="IFverschachtelt.cpp" />
     <ClCompile Include="MehrfachEingabe.cpp" />
     <ClCompile Include="funktionen.cpp" />
     <ClCompile Include="HelloWorld.cpp" />

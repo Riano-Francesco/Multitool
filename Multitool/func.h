@@ -30,6 +30,10 @@ int quadrat(int);
 int summe(int, int);
 int quadro(int);
 
+//15.02.24
+void uebung4();
+void verschachtelt();
+
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
 #endif

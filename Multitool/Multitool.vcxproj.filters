@@ -40,6 +40,9 @@
     <Filter Include="Quelldateien\Aufgaben\14.02.24\3 Unterprogramme">
       <UniqueIdentifier>{e8225741-022c-468d-a2c0-250bb4d5018e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\15.02.24">
+      <UniqueIdentifier>{caf6a80f-6c4f-46cf-bdc2-b398ebec04ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -95,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="IntQuadro.cpp">
       <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+    </ClCompile>
+    <ClCompile Include="IFverschachtelt.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
