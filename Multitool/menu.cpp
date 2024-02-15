@@ -14,10 +14,12 @@ void menu()
 	cout << "Welchen Tag wollen sie einsehen?" << endl << endl;
 
 	cout << "   +---+-------------------+" << endl;
-	cout << "   | 1 | 12.02.24          |" << endl;
-	cout << "   | 2 | 13.02.24          |" << endl;
-	cout << "   | 3 | 14.02.24          |" << endl;
-	cout << "   | 4 | 15.02.24          |" << endl;
+	cout << "   |___|______Februar______|" << endl;
+	cout << "   |   |                   |" << endl;
+	cout << "   | 1 |     12.02.24      |" << endl;
+	cout << "   | 2 |     13.02.24      |" << endl;
+	cout << "   | 3 |     14.02.24      |" << endl;
+	cout << "   | 4 |     15.02.24      |" << endl;
 	cout << "   +---+-------------------+" << endl;
 	cout << endl;
 

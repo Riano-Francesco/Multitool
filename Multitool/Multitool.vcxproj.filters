@@ -43,6 +43,9 @@
     <Filter Include="Quelldateien\Aufgaben\15.02.24">
       <UniqueIdentifier>{caf6a80f-6c4f-46cf-bdc2-b398ebec04ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung">
+      <UniqueIdentifier>{26e2bf4e-dd62-4cd7-b09f-30c5f4f2dff4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -101,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="IFverschachtelt.cpp">
       <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="boolSchaltjahr.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung</Filter>
+    </ClCompile>
+    <ClCompile Include="Schaltjahr.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

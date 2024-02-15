@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boolSchaltjahr.cpp" />
+    <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />
     <ClCompile Include="ifAnweisung1.cpp" />
