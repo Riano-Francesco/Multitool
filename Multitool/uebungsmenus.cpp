@@ -210,6 +210,8 @@ void uebung4()
 	cout << "   +---+----------------------------------+" << endl;
 	cout << "   | 1 | IF Anweisung v   erschachtelt    |" << endl;
 	cout << "   | 2 | Schaltjahrberechnung mit Bool    |" << endl;
+	cout << "   | 3 | For Zählschleife                 |" << endl;
+	cout << "   | 4 | Zählschleife Start & Endwert     |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -231,6 +233,18 @@ void uebung4()
 	case 2:
 		system("CLS");
 		Schaltjahr();
+		system("CLS");
+		break;
+
+	case 3:
+		system("CLS");
+		Zählschleife();
+		system("CLS");
+		break;
+
+	case 4:
+		system("CLS");
+		StartEnde();
 		system("CLS");
 		break;
 

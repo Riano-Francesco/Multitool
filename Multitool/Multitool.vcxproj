@@ -140,6 +140,7 @@
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="core.cpp" />
     <ClCompile Include="SpaltenbreiteETC.cpp" />
+    <ClCompile Include="StartUndEndwert.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="IntQuadrat.cpp" />
@@ -148,6 +149,7 @@
     <ClCompile Include="Wuerfeln.cpp" />
     <ClCompile Include="EinfacheAusgabe.cpp" />
     <ClCompile Include="uebungsmenus.cpp" />
+    <ClCompile Include="ForZählschleife.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />

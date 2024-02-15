@@ -111,6 +111,12 @@
     <ClCompile Include="Schaltjahr.cpp">
       <Filter>Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung</Filter>
     </ClCompile>
+    <ClCompile Include="ForZählschleife.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUndEndwert.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
