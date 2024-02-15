@@ -12,3 +12,14 @@ bool wiederholung()
 
 	return abbruch;
 }
+
+
+/*
+* Arraygröße anzeigen lassen
+
+		for (int i = 0; i < sizeof(jahr) / sizeof(int); i++) {
+
+			cout << i;
+		}
+
+*/
