@@ -10,23 +10,21 @@ using namespace std;
 // Kein Schaltjahr nicht durch 4
 
 
-int isSchaltjahr(int jahr)
+bool isSchaltjahr(int jahr)
 {
 	if (jahr % 4 == 0) {
 
 		if (jahr % 100 != 0) {
 
-			return (bool)(true);
+			return true;
 		}
 
 		if (jahr % 100 == 0 && jahr % 400 == 0) {
 
-			return (bool)(true);
+			return true;
 		}
 
 	}
-	else { // Kein Schaltjahr
-		return (bool)(false);
+	// Kein Schaltjahr
+	return false;
 	}
-
-}

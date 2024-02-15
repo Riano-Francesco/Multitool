@@ -21,7 +21,7 @@ void Schaltjahr() {
 		cout << "Bitte geben Sie eine Jahreszahl ein: ";
 		cin >> jahr;
 
-		if (isSchaltjahr(jahr) == true) {
+		if (isSchaltjahr(jahr)) {
 			cout << "Es ist ein Schaltjahr!\n";
 		}
 		else {
