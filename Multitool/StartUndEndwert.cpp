@@ -26,15 +26,6 @@ void StartEnde() {
 			cout << summe << endl;
 		}
 
-		// Rückwärts
-		if (start > ende) {
-
-			for (start; start >= ende; start--) {
-
-				summe += start;
-				cout << summe << endl;
-			}
-		}
 
 
 		abbruch = wiederholung();

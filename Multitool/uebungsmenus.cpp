@@ -212,6 +212,7 @@ void uebung4()
 	cout << "   | 2 | Schaltjahrberechnung mit Bool    |" << endl;
 	cout << "   | 3 | For Zählschleife                 |" << endl;
 	cout << "   | 4 | Zählschleife Start & Endwert     |" << endl;
+	cout << "   | 5 | Tannenbaum                       |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -244,7 +245,13 @@ void uebung4()
 
 	case 4:
 		system("CLS");
-		StartEnde();
+		Zählschleife();
+		system("CLS");
+		break;
+
+	case 5:
+		system("CLS");
+		Tannenbaum();
 		system("CLS");
 		break;
 

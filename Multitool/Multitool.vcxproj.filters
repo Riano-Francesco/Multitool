@@ -117,6 +117,9 @@
     <ClCompile Include="StartUndEndwert.cpp">
       <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="Tannenbaum.cpp">
+      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

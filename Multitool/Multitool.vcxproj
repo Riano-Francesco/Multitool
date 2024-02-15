@@ -141,6 +141,7 @@
     <ClCompile Include="core.cpp" />
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
+    <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="IntQuadrat.cpp" />

@@ -37,6 +37,7 @@ void Schaltjahr();
 bool isSchaltjahr(int);
 void Zählschleife();
 void StartEnde();
+void Tannenbaum();
 
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
