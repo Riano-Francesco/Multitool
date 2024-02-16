@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="boolSchaltjahr.cpp" />
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="LeibnitzPi.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />

@@ -285,7 +285,7 @@ void uebung5()
 	cout << "Übungen vom 16.02.24" << endl << endl;
 
 	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Ausgabe mit 3 Unterprogrammen    |" << endl;
+	cout << "   | 1 | Pi Berechnung nach Leibnitz      |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -300,7 +300,7 @@ void uebung5()
 	{
 	case 1:
 		system("CLS");
-		HauptAusgabe();
+		Leibnitz();
 		system("CLS");
 		break;
 
