@@ -1,11 +1,12 @@
 #ifndef FUNC_H
 #define FUNC_H
 
+bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
-//menu.cpp
+// menu.cpp
 void menu();
 
-//12.02.24
+// 12.02.24
 void uebung1();
 void dice();
 void hello();
@@ -13,7 +14,7 @@ void Eausgabe();
 void werte2();
 void SpaltenBreite();
 
-//13.02.24
+// 13.02.24
 void uebung2();
 void voids();
 void UnterFunk();
@@ -22,15 +23,15 @@ void flaeche();
 void ifA1();
 int ifA2(int, int);
 
-//14.02.24
+// 14.02.24
 void uebung3();
-//2 Unterprogramme
+// 2 Unterprogramme
 void HauptAusgabe();
 int quadrat(int);
 int summe(int, int);
 int quadro(int);
 
-//15.02.24
+// 15.02.24
 void uebung4();
 void verschachtelt();
 void Schaltjahr();
@@ -39,6 +40,8 @@ void Zählschleife();
 void StartEnde();
 void Tannenbaum();
 
-bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
+// 16.02.24
+void uebung5();
+
 
 #endif
