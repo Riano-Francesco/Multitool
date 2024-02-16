@@ -22,31 +22,34 @@
     <Filter Include="Quelldateien\Funktionen">
       <UniqueIdentifier>{b90f2df2-a7a9-4115-b27c-1f0241af53e9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\12.02.24">
-      <UniqueIdentifier>{37da0829-9296-430b-b9f5-716070dcd6b3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Quelldateien\Menüs\Untermenü">
       <UniqueIdentifier>{b5fdf98b-ff13-4c75-a079-6d95be868576}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\13.02.24">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024">
+      <UniqueIdentifier>{30ba58eb-2159-4c49-9967-b88e81a621d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\12.02.24">
+      <UniqueIdentifier>{37da0829-9296-430b-b9f5-716070dcd6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\13.02.24">
       <UniqueIdentifier>{de9c3b58-c4e4-4026-8961-1a64e5c2b607}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\13.02.24\If-Übung">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\13.02.24\If-Übung">
       <UniqueIdentifier>{19ae0d37-bcac-4221-bdf3-34488ad820d2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\14.02.24">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\14.02.24">
       <UniqueIdentifier>{4e2f8fb4-6953-4ff1-b95c-db09dfc6fb18}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\14.02.24\3 Unterprogramme">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\14.02.24\3 Unterprogramme">
       <UniqueIdentifier>{e8225741-022c-468d-a2c0-250bb4d5018e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\15.02.24">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\15.02.24">
       <UniqueIdentifier>{caf6a80f-6c4f-46cf-bdc2-b398ebec04ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\15.02.24\Schaltjahrberechnung">
       <UniqueIdentifier>{26e2bf4e-dd62-4cd7-b09f-30c5f4f2dff4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\16.02.24">
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\16.02.24">
       <UniqueIdentifier>{40508eb2-2ae9-4de8-8d0b-5cc71672aaf9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -61,70 +64,70 @@
       <Filter>Quelldateien\Funktionen</Filter>
     </ClCompile>
     <ClCompile Include="EinfacheAusgabe.cpp">
-      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="HelloWorld.cpp">
-      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="Wuerfeln.cpp">
-      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="uebungsmenus.cpp">
       <Filter>Quelldateien\Menüs\Untermenü</Filter>
     </ClCompile>
     <ClCompile Include="MehrfachEingabe.cpp">
-      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="SpaltenbreiteETC.cpp">
-      <Filter>Quelldateien\Aufgaben\12.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\12.02.24</Filter>
     </ClCompile>
     <ClCompile Include="VoidFunktionen.cpp">
-      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\13.02.24</Filter>
     </ClCompile>
     <ClCompile Include="Unterfunktion.cpp">
-      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\13.02.24</Filter>
     </ClCompile>
     <ClCompile Include="ifAnweisung1.cpp">
-      <Filter>Quelldateien\Aufgaben\13.02.24\If-Übung</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\13.02.24\If-Übung</Filter>
     </ClCompile>
     <ClCompile Include="ifAnweisung2.cpp">
-      <Filter>Quelldateien\Aufgaben\13.02.24\If-Übung</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\13.02.24\If-Übung</Filter>
     </ClCompile>
     <ClCompile Include="fläche.cpp">
-      <Filter>Quelldateien\Aufgaben\13.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\13.02.24</Filter>
     </ClCompile>
     <ClCompile Include="IntSumme.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="IntQuadrat.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="HauptAusgabe.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="IntQuadro.cpp">
-      <Filter>Quelldateien\Aufgaben\14.02.24\3 Unterprogramme</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\14.02.24\3 Unterprogramme</Filter>
     </ClCompile>
     <ClCompile Include="IFverschachtelt.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24</Filter>
     </ClCompile>
     <ClCompile Include="boolSchaltjahr.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24\Schaltjahrberechnung</Filter>
     </ClCompile>
     <ClCompile Include="Schaltjahr.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24\Schaltjahrberechnung</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24\Schaltjahrberechnung</Filter>
     </ClCompile>
     <ClCompile Include="ForZählschleife.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24</Filter>
     </ClCompile>
     <ClCompile Include="StartUndEndwert.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24</Filter>
     </ClCompile>
     <ClCompile Include="Tannenbaum.cpp">
-      <Filter>Quelldateien\Aufgaben\15.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\15.02.24</Filter>
     </ClCompile>
     <ClCompile Include="LeibnitzPi.cpp">
-      <Filter>Quelldateien\Aufgaben\16.02.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Februar 2024\16.02.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
