@@ -129,6 +129,9 @@
     <ClCompile Include="LeibnitzPi.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\16.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="Continue.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\16.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

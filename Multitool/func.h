@@ -43,6 +43,7 @@ void Tannenbaum();
 // 16.02.24
 void uebung5();
 void Leibnitz();
+void ContinueSchleife();
 
 
 #endif

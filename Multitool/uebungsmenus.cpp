@@ -286,6 +286,7 @@ void uebung5()
 
 	cout << "   +---+----------------------------------+" << endl;
 	cout << "   | 1 | Pi Berechnung nach Leibnitz      |" << endl;
+	cout << "   | 2 | Continue NUR! in einer Schleife  |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -301,6 +302,12 @@ void uebung5()
 	case 1:
 		system("CLS");
 		Leibnitz();
+		system("CLS");
+		break;
+
+	case 2:
+		system("CLS");
+		ContinueSchleife();
 		system("CLS");
 		break;
 
