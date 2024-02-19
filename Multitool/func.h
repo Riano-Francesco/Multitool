@@ -52,6 +52,7 @@ bool wahl(int);
 void Kneipenwahl();
 void kneipenfahrer(double, double);
 void starter(double);
+void cmathFUNK();
 
 
 #endif

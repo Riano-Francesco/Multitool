@@ -342,6 +342,7 @@ void uebung6()
 
 	cout << "   +---+----------------------------------+" << endl;
 	cout << "   | 1 | Kneipenwahl + Berechnung         |" << endl;
+	cout << "   | 2 | cmath Mathematische Funktionen   |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -360,6 +361,11 @@ void uebung6()
 		system("CLS");
 		break;
 
+	case 2:
+		system("CLS");
+		cmathFUNK();
+		system("CLS");
+		break;
 
 
 	case 0:
