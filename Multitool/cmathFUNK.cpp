@@ -28,8 +28,10 @@ void cmathFUNK() {
 		cout << "Der Absolutwert ist von cos " << cos << " ist " << abs(cos) << endl;
 		cout << "Der Absolutwert ist von sin " << sin << " ist " << abs(sin) << endl;
 
-		cout << "Der Sinus von 45 grad ist " << std::sin(45) << endl;
-		cout << "Der Cosinus von 45 grad ist " << std::cos(45) << endl;
+		double radius = 45 * 3.14 / 180.0;
+
+		std::cout << "Der Sinus von  45 grad ist " << std::sin(radius) << std::endl;
+		std::cout << "Der Cosinus von  45 grad ist " << std::cos(radius) << std::endl;
 
 		cout << "Das Ergebnis von 5 hoch 4 ist " << pow(5, 4) << endl;
 
