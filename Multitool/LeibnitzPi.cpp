@@ -29,11 +29,11 @@ void Leibnitz() {
 
 			double summe = 4 * num3;
 
-			cout << "num 1 = " << num1 << endl;
+		/*	cout << "num 1 = " << num1 << endl;
 			cout << "num 2 = " << num2 << endl;
 			cout << "num 3 = " << num3 << endl;
 			cout << "summe = " << summe << endl;
-
+		*/
 			pi += summe;
 
 		}

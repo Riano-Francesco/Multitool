@@ -45,5 +45,12 @@ void uebung5();
 void Leibnitz();
 void ContinueSchleife();
 
+// 19.02.24
+void uebung6();
+// Kneipenwahl
+bool wahl(int);
+void Kneipe();
+void kneipen(double, double);
+
 
 #endif

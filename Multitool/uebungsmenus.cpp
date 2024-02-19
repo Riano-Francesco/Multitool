@@ -331,3 +331,59 @@ void uebung5()
 	}
 
 }
+
+void uebung6()
+{
+
+	int auswahl;
+
+
+	cout << "Übungen vom 19.02.24" << endl << endl;
+
+	cout << "   +---+----------------------------------+" << endl;
+	cout << "   | 1 | Kneipenwahl + Berechnung         |" << endl;
+	cout << "   | 2 | Continue NUR! in einer Schleife  |" << endl;
+	cout << "   +---+----------------------------------+" << endl;
+	cout << endl;
+
+	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
+	cout << "99 | Um zum Hauptmenü zu gelangen!" << endl << endl << endl;
+
+	cout << "Geben sie die Zahl an, um das Programm zu starten: " << endl;
+
+	cin >> auswahl;
+
+	switch (auswahl)
+	{
+	case 1:
+		system("CLS");
+		Kneipe();
+		system("CLS");
+		break;
+
+	case 2:
+		system("CLS");
+		ContinueSchleife();
+		system("CLS");
+		break;
+
+
+
+	case 0:
+		cout << "Programm wird beendet." << endl;
+		Sleep(1000);
+		break;
+
+	case 99:
+		system("CLS");
+		menu();
+		Sleep(1000);
+		break;
+
+	default:
+		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
+		break;
+
+	}
+
+}

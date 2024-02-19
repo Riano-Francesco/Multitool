@@ -52,6 +52,12 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\16.02.24">
       <UniqueIdentifier>{40508eb2-2ae9-4de8-8d0b-5cc71672aaf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\19.02.24">
+      <UniqueIdentifier>{a5ae06fa-10c2-45df-8f8b-fe40ca36e813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\19.02.24\Kneipenwahl">
+      <UniqueIdentifier>{bacba97f-7cd8-4ade-8baf-d31106d6919b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -131,6 +137,12 @@
     </ClCompile>
     <ClCompile Include="Continue.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\16.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="KneipenWahl.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\19.02.24\Kneipenwahl</Filter>
+    </ClCompile>
+    <ClCompile Include="boolKneipe.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\19.02.24\Kneipenwahl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
