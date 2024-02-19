@@ -50,7 +50,8 @@ void uebung6();
 // Kneipenwahl
 bool wahl(int);
 void Kneipe();
-void kneipen(double, double);
+void kneipenfahrer(double, double);
+void starter(double);
 
 
 #endif
