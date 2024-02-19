@@ -342,7 +342,6 @@ void uebung6()
 
 	cout << "   +---+----------------------------------+" << endl;
 	cout << "   | 1 | Kneipenwahl + Berechnung         |" << endl;
-	cout << "   | 2 | Continue NUR! in einer Schleife  |" << endl;
 	cout << "   +---+----------------------------------+" << endl;
 	cout << endl;
 
@@ -358,12 +357,6 @@ void uebung6()
 	case 1:
 		system("CLS");
 		Kneipe();
-		system("CLS");
-		break;
-
-	case 2:
-		system("CLS");
-		ContinueSchleife();
 		system("CLS");
 		break;
 
