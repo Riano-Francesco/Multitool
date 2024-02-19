@@ -7,7 +7,7 @@
 using namespace std;
 
 
-void Kneipe() {
+void Kneipenwahl() {
 	bool abbruch;
 
 	do {

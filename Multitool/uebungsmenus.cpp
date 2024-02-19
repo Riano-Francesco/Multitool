@@ -356,7 +356,7 @@ void uebung6()
 	{
 	case 1:
 		system("CLS");
-		Kneipe();
+		Kneipenwahl();
 		system("CLS");
 		break;
 

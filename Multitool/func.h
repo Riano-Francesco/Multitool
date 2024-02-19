@@ -49,7 +49,7 @@ void ContinueSchleife();
 void uebung6();
 // Kneipenwahl
 bool wahl(int);
-void Kneipe();
+void Kneipenwahl();
 void kneipenfahrer(double, double);
 void starter(double);
 
