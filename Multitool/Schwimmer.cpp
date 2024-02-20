@@ -17,27 +17,34 @@ void Strand() {
 
 		Sleep(500);
 
-        int Strandgrenze[101];
-        float Strandstrecke[101];
-        float Wasserstrecke[101];
-        int Meterzaehler = 0;
-        int WegStrand = pow(50, 2);
-        int WegWasser = pow(50, 2);
-        float Zeitgesamt[101];
+        int Meter = 0;
+        int Strand[101];
+        double Strandmeter[101], Wassermeter[101], Gesamtzeit[101];
+        int StrandStrecke = pow(50, 2), WasserStrecke = pow(50, 2);
 
         //Schleife zur zuweisung der Werte vom Array
         for (int i = 0; i < 101; i++) {
+            Strand[i] = Meter++; // Meterzähler
+            Strandmeter[i] = sqrt(pow(Strand[i], 2) + StrandStrecke); // Strecke Strand zur Wassergrenze 
+            Wassermeter[i] = sqrt(pow(Strand[i] - 100, 2) + WasserStrecke); // Strecke Wasser von Strandgrenze bis zum Lauch 
+            Gesamtzeit[i] = Strandmeter[i] / 5 + Wassermeter[i] / 2.5; // Gesamtzeit für die gesamte Strecke 
 
-            Strandgrenze[i] = Meterzaehler;
-            Meterzaehler++;
-            Strandstrecke[i] = sqrt(pow(Strandgrenze[i], 2) + WegStrand);
-            Wasserstrecke[i] = sqrt(pow(Strandgrenze[i] - 100, 2) + WegWasser);
-            Zeitgesamt[i] = Strandstrecke[i] / 5 + Wasserstrecke[i] / 2.5;
+            // cout << Gesamtzeit[i] << endl;
         }
 
-        float* KleinsterWert = min_element(begin(Zeitgesamt), end(Zeitgesamt)); // * ist ein Dereferenzierungsoperator um nur den Wert anzuzeigen auf dem "KleinsterWert" zeigt.
+        double shortesttime = Gesamtzeit[0];
+        for (int i = 1; i < 101; i++) {
+            if (Gesamtzeit[i] < shortesttime) {
+                shortesttime = Gesamtzeit[i];
+                Meter = i;
+            }
+        }
+        cout << "Die kürzeste Zeit ist: " << shortesttime << endl;
+        cout << "Der kürzeste Weg ist: " << Meter << " m" << endl;
 
-        cout << *KleinsterWert << endl;
+        //float* KleinsterWert = min_element(begin(Gesamtzeit), end(Gesamtzeit)); // * ist ein Dereferenzierungsoperator um nur den Wert anzuzeigen auf dem "KleinsterWert" zeigt.
+
+        //cout << *KleinsterWert << endl;
 
 
 		cout << endl;
