@@ -54,5 +54,9 @@ void kneipenfahrer(double, double);
 void starter(double);
 void cmathFUNK();
 
+// 20.02.24
+void uebung7();
+void ascii();
+
 
 #endif

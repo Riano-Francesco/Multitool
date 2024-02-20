@@ -58,6 +58,9 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\19.02.24\Kneipenwahl">
       <UniqueIdentifier>{bacba97f-7cd8-4ade-8baf-d31106d6919b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\20.02.24">
+      <UniqueIdentifier>{ea81ed05-d6ca-4f88-b55c-32fa73fb5515}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -146,6 +149,9 @@
     </ClCompile>
     <ClCompile Include="cmathFUNK.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\19.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiTab.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

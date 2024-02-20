@@ -39,7 +39,8 @@ void cmathFUNK() {
 
 		cout << "Das Ergebnis von e hoch 2.5 ist " << exp(2.5) << endl;
 
-		cout << "15 % modulo 3.5 sind " << fmod(15, 3.5) << endl;
+		cout << "15 % modulo 3.5 sind " << fmod(15, 3.5) << endl; // Funktioniert nicht, Modulo kann nur Ganzzahlen teilen
+
 
 
 		abbruch = wiederholung();

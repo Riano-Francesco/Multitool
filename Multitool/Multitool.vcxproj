@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AsciiTab.cpp" />
     <ClCompile Include="cmathFUNK.cpp" />
     <ClCompile Include="boolKneipe.cpp" />
     <ClCompile Include="boolSchaltjahr.cpp" />
