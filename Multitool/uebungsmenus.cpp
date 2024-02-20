@@ -396,7 +396,7 @@ void uebung7()
 	cout << "Übungen vom 20.02.24" << endl << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
-	cout << "   | 1 | Ascii-Tabelle bis 256			          |" << endl;
+	cout << "   | 1 | Ascii-Tabelle bis 256                   |" << endl;
 	cout << "   | 2 | Eingabe mit Buchstabenprüfung           |" << endl;
 	cout << "   | 3 | Array[10] mit eingabe und berechnung    |" << endl;
 	cout << "   | 4 | Multidimensionales Array mit Sortierung |" << endl;
