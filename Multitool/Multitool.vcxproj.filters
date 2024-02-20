@@ -165,6 +165,9 @@
     <ClCompile Include="Schwimmer.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="Adresswert.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

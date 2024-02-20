@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Adresswert.cpp" />
     <ClCompile Include="Array10.cpp" />
     <ClCompile Include="AsciiTab.cpp" />
     <ClCompile Include="BuchstabenPrüfung.cpp" />

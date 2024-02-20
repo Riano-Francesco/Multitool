@@ -401,6 +401,7 @@ void uebung7()
 	cout << "   | 3 | Array[10] mit eingabe und berechnung    |" << endl;
 	cout << "   | 4 | Multidimensionales Array mit Sortierung |" << endl;
 	cout << "   | 5 | Kürzeste Zeit und Weg Rettung Schwimmer |" << endl;
+	cout << "   | 6 | Adress-Ermittlung                       |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -440,6 +441,12 @@ void uebung7()
 	case 5:
 		system("CLS");
 		Strand();
+		system("CLS");
+		break;
+
+	case 6:
+		system("CLS");
+		Adresswert();
 		system("CLS");
 		break;
 

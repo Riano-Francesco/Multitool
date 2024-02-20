@@ -61,5 +61,6 @@ void isAlpha();
 void arr10();
 void Multi();
 void Strand();
+void Adresswert();
 
 #endif
