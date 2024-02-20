@@ -400,7 +400,7 @@ void uebung7()
 	cout << "   | 2 | Eingabe mit Buchstabenprüfung           |" << endl;
 	cout << "   | 3 | Array[10] mit eingabe und berechnung    |" << endl;
 	cout << "   | 4 | Multidimensionales Array mit Sortierung |" << endl;
-	cout << "   | 5 | Kürzeste Zeit bei Wegberechnung Strand  |" << endl;
+	cout << "   | 5 | Kürzeste Zeit und Weg Rettung Schwimmer |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
