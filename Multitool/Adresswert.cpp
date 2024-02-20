@@ -27,7 +27,7 @@ void Adresswert() {
         cout << &x << endl;
 
         // Der Inhalt ändert sich aber die Adresse nicht -  Bleibt über die Lebensdauer Konstant
-
+        // Adressoperator & - Liefert Adresse einer Variable
 
         cout << endl;
         abbruch = wiederholung();
