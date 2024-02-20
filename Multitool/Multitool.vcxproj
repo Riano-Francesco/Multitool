@@ -127,13 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array10.cpp" />
     <ClCompile Include="AsciiTab.cpp" />
+    <ClCompile Include="BuchstabenPrüfung.cpp" />
     <ClCompile Include="cmathFUNK.cpp" />
     <ClCompile Include="boolKneipe.cpp" />
     <ClCompile Include="boolSchaltjahr.cpp" />
     <ClCompile Include="Continue.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
     <ClCompile Include="LeibnitzPi.cpp" />
+    <ClCompile Include="MultiArray.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />
@@ -147,6 +150,7 @@
     <ClCompile Include="core.cpp" />
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
+    <ClCompile Include="Schwimmer.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />

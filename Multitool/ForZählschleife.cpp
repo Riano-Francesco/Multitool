@@ -22,6 +22,20 @@ void Zählschleife() {
 			cout << summe << endl;
 		}
 
+		/* Zählen mit Umbrüchen und Sortierung zum Block
+		for (int i = 10; i > -41; i--) {
+			if (i == 10) {
+				cout << setw(50) << i;
+			 }
+			else {
+				cout << setw(5) << i;
+			}
+			if (i % 10 == 0) {
+				cout << endl;
+			}
+		}
+
+		*/
 
 		abbruch = wiederholung();
 		system("CLS");

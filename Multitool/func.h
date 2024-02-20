@@ -57,6 +57,9 @@ void cmathFUNK();
 // 20.02.24
 void uebung7();
 void ascii();
-
+void isAlpha();
+void arr10();
+void Multi();
+void Strand();
 
 #endif

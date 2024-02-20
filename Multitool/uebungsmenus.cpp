@@ -395,9 +395,13 @@ void uebung7()
 
 	cout << "Übungen vom 20.02.24" << endl << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Ascii-Tabelle bis 256            |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Ascii-Tabelle bis 256			          |" << endl;
+	cout << "   | 2 | Eingabe mit Buchstabenprüfung           |" << endl;
+	cout << "   | 3 | Array[10] mit eingabe und berechnung    |" << endl;
+	cout << "   | 4 | Multidimensionales Array mit Sortierung |" << endl;
+	cout << "   | 5 | Kürzeste Zeit bei Wegberechnung Strand  |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -414,6 +418,31 @@ void uebung7()
 		ascii();
 		system("CLS");
 		break;
+
+	case 2:
+		system("CLS");
+		isAlpha();
+		system("CLS");
+		break;
+
+	case 3:
+		system("CLS");
+		arr10();
+		system("CLS");
+		break;
+
+	case 4:
+		system("CLS");
+		Multi();
+		system("CLS");
+		break;
+
+	case 5:
+		system("CLS");
+		Strand();
+		system("CLS");
+		break;
+
 
 
 

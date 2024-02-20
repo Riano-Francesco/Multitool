@@ -153,6 +153,18 @@
     <ClCompile Include="AsciiTab.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="BuchstabenPrüfung.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Array10.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiArray.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Schwimmer.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
