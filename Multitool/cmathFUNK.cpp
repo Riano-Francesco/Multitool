@@ -28,7 +28,7 @@ void cmathFUNK() {
 		cout << "Der Absolutwert ist von cos " << cos << " ist " << abs(cos) << endl;
 		cout << "Der Absolutwert ist von sin " << sin << " ist " << abs(sin) << endl;
 
-		double radius = 45 * 3.14 / 180.0;
+		double radius = 45.0 / 180.0 * 3.14;
 
 		std::cout << "Der Sinus von  45 grad ist " << std::sin(radius) << std::endl;
 		std::cout << "Der Cosinus von  45 grad ist " << std::cos(radius) << std::endl;
@@ -37,7 +37,7 @@ void cmathFUNK() {
 
 		cout << "Die Wurzel aus 2 hoch 16 ist " << sqrt(pow(2, 16)) << endl;
 
-		cout << "Das Ergebnis von e hoch 2.5 ist " << pow(e, 2.5) << endl;
+		cout << "Das Ergebnis von e hoch 2.5 ist " << exp(2.5) << endl;
 
 		cout << "15 % modulo 3.5 sind " << fmod(15, 3.5) << endl;
 
