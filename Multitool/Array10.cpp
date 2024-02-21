@@ -44,6 +44,13 @@ void arr10() {
 
 // Array   arr[15] -> arr[0] bis arr[14]
 
+		//	int arr[3] = { 1, 2, 3 };
+		//  cout << sizeof(arr) / sizeof(arr[0]);
+		//             12       /       4       =     3
+
+		// cout << *arr + 2; Adresse vom Speicherblock von 3
+		// cout << *(arr + 2); Wert vom Speicherblock
+
 
 
 
