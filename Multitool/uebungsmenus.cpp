@@ -13,15 +13,15 @@ void uebung1()
 	int auswahl;
 
 
-	cout << "Übungen vom 12.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 12.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------+" << endl;
-	cout << "   | 1 | Würfeln              |" << endl;
-	cout << "   | 2 | Hello World!         |" << endl;
-	cout << "   | 3 | Einfache Ausgabe     |" << endl;
-	cout << "   | 4 | 2 Werte ausgeben     |" << endl;
-	cout << "   | 5 | Spaltenbreite        |" << endl;
-	cout << "   +---+----------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Würfeln                                 |" << endl;
+	cout << "   | 2 | Hello World!                            |" << endl;
+	cout << "   | 3 | Einfache Ausgabe                        |" << endl;
+	cout << "   | 4 | 2 Werte ausgeben                        |" << endl;
+	cout << "   | 5 | Spaltenbreite                           |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -88,14 +88,14 @@ void uebung2()
 	int auswahl;
 
 
-	cout << "Übungen vom 13.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 13.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Void Funktion                    |" << endl;
-	cout << "   | 2 | Unterfunktion                    |" << endl;
-	cout << "   | 3 | Summe durch Unterprogramm        |" << endl;
-	cout << "   | 4 | Fläche Länge x Breite            |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Void Funktion                           |" << endl;
+	cout << "   | 2 | Unterfunktion                           |" << endl;
+	cout << "   | 3 | Summe durch Unterprogramm               |" << endl;
+	cout << "   | 4 | Fläche Länge x Breite                   |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -156,11 +156,11 @@ void uebung3()
 	int auswahl;
 
 
-	cout << "Übungen vom 14.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 14.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Ausgabe mit 3 Unterprogrammen    |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Ausgabe mit 3 Unterprogrammen           |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -205,15 +205,15 @@ void uebung4()
 	int auswahl;
 
 
-	cout << "Übungen vom 15.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 15.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | IF Anweisung v   erschachtelt    |" << endl;
-	cout << "   | 2 | Schaltjahrberechnung mit Bool    |" << endl;
-	cout << "   | 3 | For Zählschleife                 |" << endl;
-	cout << "   | 4 | Zählschleife Start & Endwert     |" << endl;
-	cout << "   | 5 | Tannenbaum                       |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | IF Anweisung v   erschachtelt           |" << endl;
+	cout << "   | 2 | Schaltjahrberechnung mit Bool           |" << endl;
+	cout << "   | 3 | For Zählschleife                        |" << endl;
+	cout << "   | 4 | Zählschleife Start & Endwert            |" << endl;
+	cout << "   | 5 | Tannenbaum                              |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -282,12 +282,12 @@ void uebung5()
 	int auswahl;
 
 
-	cout << "Übungen vom 16.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 16.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Pi Berechnung nach Leibnitz      |" << endl;
-	cout << "   | 2 | Continue NUR! in einer Schleife  |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Pi Berechnung nach Leibnitz             |" << endl;
+	cout << "   | 2 | Continue NUR! in einer Schleife         |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -338,12 +338,12 @@ void uebung6()
 	int auswahl;
 
 
-	cout << "Übungen vom 19.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 19.02.24  |--------+" << endl;
 
-	cout << "   +---+----------------------------------+" << endl;
-	cout << "   | 1 | Kneipenwahl + Berechnung         |" << endl;
-	cout << "   | 2 | cmath Mathematische Funktionen   |" << endl;
-	cout << "   +---+----------------------------------+" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Kneipenwahl + Berechnung                |" << endl;
+	cout << "   | 2 | cmath Mathematische Funktionen          |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -393,7 +393,7 @@ void uebung7()
 	int auswahl;
 
 
-	cout << "Übungen vom 20.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 20.02.24  |--------+" << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | Ascii-Tabelle bis 256                   |" << endl;
@@ -479,7 +479,7 @@ void uebung8()
 	int auswahl;
 
 
-	cout << "Übungen vom 21.02.24" << endl << endl;
+	cout << "   +---+--------| Übungen vom 21.02.24  |--------+" << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | Wertetausch mit Pointer                 |" << endl;

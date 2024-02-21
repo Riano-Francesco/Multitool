@@ -19,12 +19,12 @@ void PointerSwap() {
 
         int a = 5;
         int b = 9;
-        int* ptra = &a;
-        int* ptrb = &b;
+        int* ptra = &a; // Pointer a
+        int* ptrb = &b; // Pointer b
         cout << "Wert a ist " << a << endl;
         cout << "Wert b ist " << b << endl;
 
-        swap(*ptra, *ptrb);
+        swap(*ptra, *ptrb); // Funktion die beide Werte tauscht
         cout << "Wert a ist " << a << endl;
         cout << "Wert b ist " << b << endl;
 

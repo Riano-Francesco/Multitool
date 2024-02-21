@@ -10,16 +10,16 @@
 using namespace std;
 
 
-void Swap(int* a, int* b) {
+void Swap(int* a, int* b) { // Pointer festlegen
     bool abbruch;
 
     do {
 
         Sleep(500);
 
-        int temp = *a;
-        *a = *b;
-        *b = temp;
+        int temp = *a; // Temporärer Speicher für Pointer *a
+        *a = *b;       // Wert für *a mit *b tauschen
+        *b = temp;     // Wert für *b mit temp tausch (= *a)
 
 
         cout << endl;
