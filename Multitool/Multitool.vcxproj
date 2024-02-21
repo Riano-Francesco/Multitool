@@ -153,7 +153,7 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
     <ClCompile Include="Schwimmer.cpp" />
-    <ClCompile Include="Swap.cpp" />
+    <ClCompile Include="Swappy.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />

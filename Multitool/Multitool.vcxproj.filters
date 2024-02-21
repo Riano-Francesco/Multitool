@@ -177,7 +177,7 @@
     <ClCompile Include="PointerSwap.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer</Filter>
     </ClCompile>
-    <ClCompile Include="Swap.cpp">
+    <ClCompile Include="Swappy.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer</Filter>
     </ClCompile>
   </ItemGroup>
