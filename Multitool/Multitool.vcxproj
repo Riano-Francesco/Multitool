@@ -138,6 +138,7 @@
     <ClCompile Include="KneipenWahl.cpp" />
     <ClCompile Include="LeibnitzPi.cpp" />
     <ClCompile Include="MultiArray.cpp" />
+    <ClCompile Include="PointerSwap.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
     <ClCompile Include="Schwimmer.cpp" />
+    <ClCompile Include="Swap.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />

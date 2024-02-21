@@ -61,6 +61,12 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\20.02.24">
       <UniqueIdentifier>{ea81ed05-d6ca-4f88-b55c-32fa73fb5515}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\21.02.24">
+      <UniqueIdentifier>{34139442-39a8-452f-81fc-9d778b05c88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer">
+      <UniqueIdentifier>{301ed914-8c5d-4533-a500-a93dea7c23d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -167,6 +173,12 @@
     </ClCompile>
     <ClCompile Include="Adresswert.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\20.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerSwap.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
