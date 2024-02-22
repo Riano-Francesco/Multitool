@@ -186,6 +186,9 @@
     <ClCompile Include="getLineString.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
     </ClCompile>
+    <ClCompile Include="StringTausch.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

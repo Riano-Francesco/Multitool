@@ -70,5 +70,6 @@ void swappy(int*, int*);
 // 22.02.24
 void uebung9();
 void getLine();
+void stringtausch();
 
 #endif

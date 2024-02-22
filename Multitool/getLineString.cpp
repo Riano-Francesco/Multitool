@@ -52,3 +52,4 @@ void getLine() {
 //while (x[a])
 //cout << x[a++];
 
+// char x[5] [10] -> Feld 1 = Wie viele Werte und Feld 2 = wie Groß die Werte sein dürfen
