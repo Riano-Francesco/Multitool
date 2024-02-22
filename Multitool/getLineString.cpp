@@ -4,8 +4,9 @@
 #include <cmath>
 #include <cctype>
 
-
 #include "func.h"
+
+
 
 using namespace std;
 
@@ -22,11 +23,10 @@ void getLine() {
 
         cout << "Bitte geben Sie einen Text mit max. 80 Zeichen ein: " << endl;
 
-        cin.clear(); 
-        fflush(stdin);
-
+        //cin.clear();  // Ausgabespeicher löschen
+        //fflush(stdin); // Eingabespeicher löschen -- Macht gerne Ärger
+       
         cin.getline(a, 80);
-
         cout << "Sie gaben \"" << a << "\" ein." << endl;
         // \"" Escape Character auf dem in der Ausgabe das festgestzte Zeichen (") folgt
         // "\" nach der Eingabe schließt es wieder mit dem Zeichen
@@ -50,3 +50,4 @@ void getLine() {
 //
 //while (x[a])
 //cout << x[a++];
+
