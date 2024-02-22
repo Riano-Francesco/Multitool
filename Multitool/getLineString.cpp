@@ -28,10 +28,11 @@ void getLine() {
        
         cin.getline(a, 80);
         cout << "Sie gaben \"" << a << "\" ein." << endl;
+
         // \"" Escape Character auf dem in der Ausgabe das festgestzte Zeichen (") folgt
         // "\" nach der Eingabe schließt es wieder mit dem Zeichen
 
-        // \0 ist die Endekennung, bsp: arr[10] -> arr[9] = '\0'; MUSS als letztes Feld sein.
+     
 
 
         cout << endl;
@@ -45,7 +46,7 @@ void getLine() {
 // char [7] = "String"; || char [] = "String";
 // strcpy (ziel, quelle); -> strcpy (a, "name"); Zum Inhalt aus Quelle in das Ziel
 
-//char x[] = { 'H','a','l','l','o','\0' };
+//char x[] = { 'H','a','l','l','o','\0' };   // \0 ist die Endekennung, bsp: arr[10] -> arr[9] = '\0'; MUSS als letztes Feld sein.
 //int a = 0;
 //
 //while (x[a])
