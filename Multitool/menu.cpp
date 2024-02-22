@@ -24,6 +24,7 @@ void menu()
 	cout << "   | 6 |     19.02.24      |" << endl;
 	cout << "   | 7 |     20.02.24      |" << endl;
 	cout << "   | 8 |     21.02.24      |" << endl;
+	cout << "   | 9 |     22.02.24      |" << endl;
 	cout << "   +---+-------------------+" << endl;
 	cout << endl;
 
@@ -80,6 +81,12 @@ void menu()
 	case 8:
 		system("CLS");
 		uebung8();
+		system("CLS");
+		break;
+
+	case 9:
+		system("CLS");
+		uebung9();
 		system("CLS");
 		break;
 

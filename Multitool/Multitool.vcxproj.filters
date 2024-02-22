@@ -67,6 +67,9 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer">
       <UniqueIdentifier>{301ed914-8c5d-4533-a500-a93dea7c23d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\22.02.24">
+      <UniqueIdentifier>{94403ea6-d90b-48fc-b8ab-3e3d2cc1978e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -179,6 +182,9 @@
     </ClCompile>
     <ClCompile Include="Swappy.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\21.02.24\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="getLineString.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

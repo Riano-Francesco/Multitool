@@ -526,3 +526,57 @@ void uebung8()
 	}
 
 }
+
+void uebung9()
+{
+
+	int auswahl;
+
+
+	cout << "   +---+--------| Übungen vom 22.02.24  |--------+" << endl;
+
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | getline String ausgabe mit Array        |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << endl;
+
+	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
+	cout << "99 | Um zum Hauptmenü zu gelangen!" << endl << endl << endl;
+
+	cout << "Geben sie die Zahl an, um das Programm zu starten: " << endl;
+
+	cin >> auswahl;
+
+	switch (auswahl)
+	{
+	case 1:
+		system("CLS");
+		getLine();
+		system("CLS");
+		break;
+
+
+
+
+
+
+
+
+	case 0:
+		cout << "Programm wird beendet." << endl;
+		Sleep(1000);
+		break;
+
+	case 99:
+		system("CLS");
+		menu();
+		Sleep(1000);
+		break;
+
+	default:
+		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
+		break;
+
+	}
+
+}

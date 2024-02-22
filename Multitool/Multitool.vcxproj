@@ -135,6 +135,7 @@
     <ClCompile Include="boolKneipe.cpp" />
     <ClCompile Include="boolSchaltjahr.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="getLineString.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
     <ClCompile Include="LeibnitzPi.cpp" />
     <ClCompile Include="MultiArray.cpp" />

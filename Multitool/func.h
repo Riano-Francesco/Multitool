@@ -67,6 +67,8 @@ void Adresswert();
 void uebung8();
 void PointerSwap();
 void swappy(int*, int*);
-
+// 22.02.24
+void uebung9();
+void getLine();
 
 #endif
