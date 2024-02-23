@@ -70,6 +70,9 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\22.02.24">
       <UniqueIdentifier>{94403ea6-d90b-48fc-b8ab-3e3d2cc1978e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\23.02.24">
+      <UniqueIdentifier>{eb71f6f7-b25a-464c-8ca9-daa319a6f626}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -186,8 +189,11 @@
     <ClCompile Include="getLineString.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
     </ClCompile>
-    <ClCompile Include="StringTausch.cpp">
+    <ClCompile Include="StringFunktionen.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\23.02.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

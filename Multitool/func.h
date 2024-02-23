@@ -72,4 +72,8 @@ void uebung9();
 void getLine();
 void stringtausch();
 
+// 23.02.24
+void uebung10();
+void strings();
+
 #endif

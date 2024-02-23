@@ -154,7 +154,8 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
     <ClCompile Include="Schwimmer.cpp" />
-    <ClCompile Include="StringTausch.cpp" />
+    <ClCompile Include="StringFunktionen.cpp" />
+    <ClCompile Include="Strings.cpp" />
     <ClCompile Include="Swappy.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
