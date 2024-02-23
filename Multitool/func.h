@@ -77,5 +77,7 @@ void strings();
 void ostrcpy(char*, char*);
 int ostrlen(char*);
 void upper(char*);
+void reversestring(char*);
+void mixstring(char*, char*, char*);
 
 #endif

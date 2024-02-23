@@ -37,7 +37,9 @@ void ostrcpy(char* start, char* ziel) {
 int ostrlen(char* gr) {
 
 	int x = 0;
-	while (gr[x++]);
+	while (gr[x]) {
+		x++;
+	}
 
 	return x;
 }
@@ -63,7 +65,35 @@ void upper(char* range) {
 			count++;
 		}
 	}
-	cout << range << " und Anzahl getauschter Buchstaben: " << count;
+	cout << range << endl << "Anzahl getauschter Buchstaben: " << count;
+}
+
+void reversestring(char* string) {
+	int a = 0;
+	int b = ostrlen(string) - 1;
+	while (a < b) {
+		char temp = string[a];
+		string[a] = string[b];
+		string[b] = temp;
+		a++;
+		b--;
+	}
+}
+
+void mixstring(char* ziel, char* quelle1, char* quelle2) {
+	int a = 0;
+	int b = 0;
+	int c = 0;
+
+	while (quelle1[a] && quelle2[b]) {
+		ziel[c] = quelle1[a];
+		a++;
+		c++;
+		ziel[c] = quelle2[b];
+		b++;
+		c++;
+	}
+	ziel[c] = '\0';
 }
 
 void strings() {
@@ -88,10 +118,12 @@ void strings() {
 
 		char start[81];
 		char ziel[81];
+		char start2[81];
 
 		cout << "Bitte geben Sie zwei Wörter mit max. 80 Zeichen ein: " << endl;
 		cin.getline(start, 80);
 		cin.getline(ziel, 80);
+		cin.getline(start2, 80);
 		system("CLS");
 
 		cout << "Alter String: \"" << start << "\"" << endl;
@@ -103,6 +135,15 @@ void strings() {
 
 		cout << "Ausgabe mit Großbuchstaben: ";
 		upper(start);
+		cout << endl;
+
+		reversestring(start);
+		cout << "Ausgabe Rückwärts geschrieben: " << start;
+		reversestring(start);
+		cout << endl;
+
+		mixstring(start, ziel, start2);
+		cout << "Ausgabe Mixed geschrieben: " << start;
 
 
         cout << endl;
