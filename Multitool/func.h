@@ -75,5 +75,8 @@ void stringtausch();
 // 23.02.24
 void uebung10();
 void strings();
+void ostrcpy(char* ziel, char* quelle);
+int ostrlen(char* gr);
+void upper(char* range);
 
 #endif

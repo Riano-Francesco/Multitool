@@ -42,14 +42,14 @@ void getLine() {
 
     uebung9();
 }
-
-// char [7] = "String"; || char [] = "String";
-// strcpy (ziel, quelle); -> strcpy (a, "name"); Zum Inhalt aus Quelle in das Ziel
-
-//char x[] = { 'H','a','l','l','o','\0' };   // \0 ist die Endekennung, bsp: arr[10] -> arr[9] = '\0'; MUSS als letztes Feld sein.
-//int a = 0;
 //
-//while (x[a])
-//cout << x[a++];
-
-// char x[5] [10] -> Feld 1 = Wie viele Werte und Feld 2 = wie Groß die Werte sein dürfen
+//// char [7] = "String"; || char [] = "String";
+//// strcpy (ziel, quelle); -> strcpy (a, "name"); Zum Inhalt aus Quelle in das Ziel
+//
+////char x[] = { 'H','a','l','l','o','\0' };   // \0 ist die Endekennung, bsp: arr[10] -> arr[9] = '\0'; MUSS als letztes Feld sein.
+////int a = 0;
+////
+////while (x[a])
+////cout << x[a++];
+//
+//// char x[5] [10] -> Feld 1 = Wie viele Werte und Feld 2 = wie Groß die Werte sein dürfen
