@@ -537,7 +537,6 @@ void uebung9()
 
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | getline String ausgabe mit Array        |" << endl;
-	cout << "   | 2 | Stringcopy bzw. tausch 2er Strings      |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -555,19 +554,6 @@ void uebung9()
 		getLine();
 		system("CLS");
 		break;
-
-	case 2:
-		system("CLS");
-		stringtausch();
-		system("CLS");
-		break;
-
-
-
-
-
-
-
 
 	case 0:
 		cout << "Programm wird beendet." << endl;

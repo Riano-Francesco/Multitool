@@ -70,13 +70,12 @@ void swappy(int*, int*);
 // 22.02.24
 void uebung9();
 void getLine();
-void stringtausch();
 
 // 23.02.24
 void uebung10();
 void strings();
-void ostrcpy(char* ziel, char* quelle);
-int ostrlen(char* gr);
-void upper(char* range);
+void ostrcpy(char*, char*);
+int ostrlen(char*);
+void upper(char*);
 
 #endif

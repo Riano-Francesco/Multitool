@@ -25,13 +25,13 @@ using namespace std;
 
 // Upper Case: 65 - 90   Lower Case: 97 - 122
 
-void ostrcpy(char* ziel, char* quelle) {
+void ostrcpy(char* start, char* ziel) {
 	int i = 0;
-	while (quelle[i]) {
-		ziel[i] = quelle[i];
+	while (ziel[i]) {
+		start[i] = ziel[i];
 		i++;
 	}
-	ziel[i] = quelle[i];
+	start[i] = ziel[i];
 }
 
 int ostrlen(char* gr) {
@@ -71,38 +71,38 @@ void strings() {
 
     do {
 
-		//char quelle[] = "Hallo";
+		//char start[] = "Hallo";
 		//char ziel[] = "Tschuess";
 
-		//cout << "Alter String: \"" << quelle << "\"" << endl;
+		//cout << "Alter String: \"" << start << "\"" << endl;
 
-		//ostrcpy(quelle, ziel);
-		//cout << "Neuer String: \"" << quelle << "\"" << endl;
+		//ostrcpy(start, ziel);
+		//cout << "Neuer String: \"" << start << "\"" << endl;
 		//
 		//int x = ostrlen(ziel);
 		//cout << "Die Zeichenmenge des neuen Strings plus Endekennung ist: " << x << " Zeichen!" << endl;
 		//
 		//cout << "Ausgabe mit Großbuchstaben: ";
-		//upper(quelle);
+		//upper(start);
 		//cout << endl;
 
-		char quelle[81];
+		char start[81];
 		char ziel[81];
 
 		cout << "Bitte geben Sie zwei Wörter mit max. 80 Zeichen ein: " << endl;
-		cin.getline(quelle, 80);
+		cin.getline(start, 80);
 		cin.getline(ziel, 80);
 		system("CLS");
 
-		cout << "Alter String: \"" << quelle << "\"" << endl;
-		ostrcpy(quelle, ziel);
-		cout << "Neuer String nach dem Tausch: \"" << quelle << "\"" << endl;
+		cout << "Alter String: \"" << start << "\"" << endl;
+		ostrcpy(start, ziel);
+		cout << "Neuer String nach dem Tausch: \"" << start << "\"" << endl;
 
-		int x = ostrlen(ziel);
+		int x = ostrlen(start);
 		cout << "Die Zeichenmenge des neuen Strings plus Endekennung ist: " << x << " Zeichen!" << endl;
 
 		cout << "Ausgabe mit Großbuchstaben: ";
-		upper(quelle);
+		upper(start);
 
 
         cout << endl;

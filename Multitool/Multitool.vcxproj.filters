@@ -189,9 +189,6 @@
     <ClCompile Include="getLineString.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
     </ClCompile>
-    <ClCompile Include="StringFunktionen.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\22.02.24</Filter>
-    </ClCompile>
     <ClCompile Include="Strings.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\23.02.24</Filter>
     </ClCompile>
