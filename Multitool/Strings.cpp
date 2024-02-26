@@ -96,42 +96,73 @@ void mixstring(char* ziel, char* quelle1, char* quelle2) {
 	ziel[c] = '\0';
 }
 
+int ostrstr(char* pattern, char* check) {
+	int i = 0;
+	int j = 0;
+	int k = 0;
+
+	while (check[i]) {
+		if (check[i] == pattern[j]) {
+			k = i;
+			while (check[i] == pattern[j]) {
+				i++;
+				j++;
+				if (pattern[i] == '\0') {
+					return k;
+				}
+			}
+			j = 0;
+		}
+		i++;
+	}
+	return -1;
+}
+
 void strings() {
     bool abbruch;
 
     do {
 
-		//char start[] = "Hallo";
+		//char quelle[] = "Hallo";
 		//char ziel[] = "Tschuess";
 
-		//cout << "Alter String: \"" << start << "\"" << endl;
+		//cout << "Alter String: \"" << quelle << "\"" << endl;
 
-		//ostrcpy(start, ziel);
-		//cout << "Neuer String: \"" << start << "\"" << endl;
+		//ostrcpy(quelle, ziel);
+		//cout << "Neuer String: \"" << quelle << "\"" << endl;
 		//
 		//int x = ostrlen(ziel);
 		//cout << "Die Zeichenmenge des neuen Strings plus Endekennung ist: " << x << " Zeichen!" << endl;
 		//
 		//cout << "Ausgabe mit Großbuchstaben: ";
-		//upper(start);
+		//upper(quelle);
 		//cout << endl;
 
 		char start[81];
 		char ziel[81];
 		char start2[81];
 
-		cout << "Bitte geben Sie zwei Wörter mit max. 80 Zeichen ein: " << endl;
+		char check[81] = "Otto";
+		char pattern[81] = "Und Otto ging Baden";
+
+		cout << "Bitte geben Sie drei Wörter mit max. 80 Zeichen ein, wobei das zweite und dritte kombiniert wird: " << endl;
 		cin.getline(start, 80);
 		cin.getline(ziel, 80);
 		cin.getline(start2, 80);
 		system("CLS");
 
+		//char start[] = "Hallo";
+		//char ziel[] = "Tschuess";
+		//char start2[81];
+
+
 		cout << "Alter String: \"" << start << "\"" << endl;
 		ostrcpy(start, ziel);
 		cout << "Neuer String nach dem Tausch: \"" << start << "\"" << endl;
+		cout << "Der dritte String für Mixed: \"" << start2 << "\"" << endl;
 
 		int x = ostrlen(start);
-		cout << "Die Zeichenmenge des neuen Strings plus Endekennung ist: " << x << " Zeichen!" << endl;
+		cout << "Die Zeichenmenge des neuen Strings plus Endekennung ist: " << x + 1 << " Zeichen!" << endl;
 
 		cout << "Ausgabe mit Großbuchstaben: ";
 		upper(start);
@@ -144,7 +175,17 @@ void strings() {
 
 		mixstring(start, ziel, start2);
 		cout << "Ausgabe Mixed geschrieben: " << start;
+		cout << endl;
 
+		int otto = ostrstr(check, pattern);
+		if (otto == -1) {
+			cout << "Das Wort \"" << check << "\" ist nicht in dem Satz \"" << pattern << "\" enthalten." << endl;
+			cout << "Rückgabewert : " << otto << "\n";
+		}
+		else {
+			cout << "Das Wort \"" << check << "\" ist in dem Satz \"" << pattern << "\" enthalten." << endl;
+			cout << "Die Position ist: " << otto << endl;
+		}
 
         cout << endl;
         abbruch = wiederholung();
