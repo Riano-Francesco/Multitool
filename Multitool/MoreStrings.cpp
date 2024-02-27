@@ -179,10 +179,15 @@ void stringcatination(char* ziel, const char* quelle) {
 	ziel[b] = '\0';
 }
 
-void unter20(unsigned long wert, char* str) {
+void unter20(unsigned long wert, char* str, char s = 's') {
 	switch (wert) {
 	case 1:
-		stringcatination(str, "Eins");
+		if (s != 's') {
+			stringcatination(str, "Eins");
+		}
+		else {
+			stringcatination(str, "Ein");
+		}
 		break;
 	case 2:
 		stringcatination(str, "Zwei");
@@ -238,14 +243,57 @@ void unter20(unsigned long wert, char* str) {
 	case 19:
 		stringcatination(str, "Neunzehn");
 		break;
-	default:
-		cout << "Falscher Wert eingegeben!";
 	}
 }
 
 void unter100(unsigned long wert, char* str) {
-	if (wert < 20) {
-		unter20(wert, str);
+	switch (wert / 10) {
+	case 2:
+		stringcatination(str, "Zwanzig");
+		break;
+	case 3:
+		stringcatination(str, "Dreißig");
+		break;
+	case 4:
+		stringcatination(str, "Vierzig");
+		break;
+	case 5:
+		stringcatination(str, "Fuenfzig");
+		break;
+	case 6:
+		stringcatination(str, "Sechzig");
+		break;
+	case 7:
+		stringcatination(str, "Siebzig");
+		break;
+	case 8:
+		stringcatination(str, "Achtzig");
+		break;
+	case 9:
+		stringcatination(str, "Neunzig");
+		break;
+	}
+}
+
+void hundert(unsigned long wert, char* str) {
+	if (wert < 20) {						// Einser
+		if (wert == 1) {
+			unter20(wert, str, 'a');		// Eins
+		}
+		else {
+			unter20(wert, str);				// Ein
+		}
+		return;
+	}
+	if (wert % 10) {						// Vorzahl und Nachzahl (Zweistellig aber nicht Ganz)
+		unter20(wert % 10, str);			// Hintere Zahl - nicht im Case sonder im Funk.Aufruf
+		stringcatination(str, "-Und-");
+		unter100(wert, str);				// Vordere Zahl (Zweistellig)
+		return;
+	}
+	if (wert / 10) {						// Ganze Zweistellig
+		unter100(wert, str);
+		return;
 	}
 }
 
@@ -254,7 +302,7 @@ void toWord(unsigned long wert, char* str) {
 		stringcatination(str, "Null");
 		return;
 	}
-	unter20(wert, str);
+	hundert(wert, str);
 }
 
 void MoreStrings() {
