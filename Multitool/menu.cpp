@@ -97,6 +97,8 @@ void menu()
 		system("CLS");
 		break;
 
+
+
 	case 0:
 		cout << "Programm wird beendet." << endl;
 		Sleep(1000);

@@ -583,7 +583,7 @@ void uebung10()
 	cout << "   +---+--------| Übungen vom 23.02.24  |--------+" << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
-	cout << "   | 1 | Stringfunktionen                        |" << endl;
+	cout << "   | 1 | Zahl als String umwandeln und ausgeben  |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -598,7 +598,7 @@ void uebung10()
 	{
 	case 1:
 		system("CLS");
-		strings();
+		MoreStrings();
 		system("CLS");
 		break;
 

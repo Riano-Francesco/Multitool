@@ -73,11 +73,6 @@ void getLine();
 
 // 23.02.24
 void uebung10();
-void strings();
-void ostrcpy(char*, char*);
-int ostrlen(char*);
-void upper(char*);
-void reversestring(char*);
-void mixstring(char*, char*, char*);
+void MoreStrings();
 
 #endif
