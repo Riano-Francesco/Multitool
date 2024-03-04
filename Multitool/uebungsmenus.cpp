@@ -622,3 +622,59 @@ void uebung10()
 	}
 
 }
+
+void uebung11()
+{
+
+	int auswahl;
+
+
+	cout << "   +---+--------| Übungen vom 04.03.24  |--------+" << endl;
+
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Strukturdaten ausgeben                  |" << endl;
+	cout << "   | 2 | Struktur mit Daten befüllen und ausgeben|" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << endl;
+
+	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
+	cout << "99 | Um zum Hauptmenü zu gelangen!" << endl << endl << endl;
+
+	cout << "Geben sie die Zahl an, um das Programm zu starten: " << endl;
+
+	cin >> auswahl;
+
+	switch (auswahl)
+	{
+	case 1:
+		system("CLS");
+		firstStruct();
+		system("CLS");
+		break;
+
+	case 2:
+		system("CLS");
+		EingabeStruct();
+		system("CLS");
+		break;
+
+
+
+	case 0:
+		cout << "Programm wird beendet." << endl;
+		Sleep(1000);
+		break;
+
+	case 99:
+		system("CLS");
+		menu();
+		Sleep(1000);
+		break;
+
+	default:
+		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
+		break;
+
+	}
+
+}

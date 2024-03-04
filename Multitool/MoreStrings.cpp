@@ -276,6 +276,12 @@ void unter100(unsigned long wert, char* str) {
 }
 
 void hundert(unsigned long wert, char* str) {
+
+	if (wert < 1000 && wert > 99) {
+		unter20(wert / 100, str);
+		stringcatination(str, "Hundert");
+		unter100(wert, str);
+	}
 	if (wert < 20) {						// Einser
 		if (wert == 1) {
 			unter20(wert, str, 'a');		// Eins
@@ -289,13 +295,26 @@ void hundert(unsigned long wert, char* str) {
 		unter20(wert % 10, str);			// Hintere Zahl - nicht im Case sonder im Funk.Aufruf
 		stringcatination(str, "-Und-");
 		unter100(wert, str);				// Vordere Zahl (Zweistellig)
-		return;
 	}
 	if (wert / 10) {						// Ganze Zweistellig
-		unter100(wert, str);
+		unter100(wert % 100, str);
+	}
+
+}
+
+void tausend(unsigned long wert, char* str) {
+	if (wert < 1000) {
+		stringcatination(str, "Hundert");
 		return;
 	}
+	if (wert % 100) {
+		unter20(wert % 100, str);
+		stringcatination(str, "Tausend");
+		return;
+	}
+	hundert(wert, str);
 }
+
 
 void toWord(unsigned long wert, char* str) {
 	if (wert == 0) {
@@ -305,6 +324,7 @@ void toWord(unsigned long wert, char* str) {
 	hundert(wert, str);
 }
 
+
 void MoreStrings() {
     bool abbruch;
 
@@ -313,7 +333,7 @@ void MoreStrings() {
 		//char start[81];
 		//char ziel[81];
 		//char start2[81];
-	
+
 		//cout << "Bitte geben Sie drei Wörter mit max. 80 Zeichen ein, wobei das zweite und dritte kombiniert wird: " << endl;
 		//cin.getline(start, 80);
 		//cin.getline(ziel, 80);
@@ -355,7 +375,7 @@ void MoreStrings() {
 		//	cout << "Das Wort \"" << check << "\" ist in dem Satz \"" << pattern << "\" enthalten." << endl;
 		//	cout << "Die Position ist: " << otto << endl;
 		//}
-		
+
 
 		//char wortwahl[81]; char zielausgabe[81];
 		//int anz = 0;
@@ -363,7 +383,7 @@ void MoreStrings() {
 
 		//cout << "Geben Sie ein Wort mit maximal 80 Zeichen ein: ";
 		//cin >> wortwahl;
-			
+
 		//cout << "Wie viele Zeichen sollen im Ziel kopiert werden? -> ";
 		//cin >> anz;
 
@@ -387,7 +407,6 @@ void MoreStrings() {
 
 		toWord(wert, str);
 		cout << "Der Wert " << wert << " wurde in das Wort '" << str << "' umgewandelt." << endl;
-
         
 
 

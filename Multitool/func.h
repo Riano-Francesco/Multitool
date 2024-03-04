@@ -75,4 +75,9 @@ void getLine();
 void uebung10();
 void MoreStrings();
 
+// 04.03.24
+void uebung11();
+void firstStruct();
+void EingabeStruct();
+
 #endif

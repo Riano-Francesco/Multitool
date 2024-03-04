@@ -135,6 +135,7 @@
     <ClCompile Include="boolKneipe.cpp" />
     <ClCompile Include="boolSchaltjahr.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
     <ClCompile Include="LeibnitzPi.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="SpaltenbreiteETC.cpp" />
     <ClCompile Include="StartUndEndwert.cpp" />
     <ClCompile Include="Schwimmer.cpp" />
+    <ClCompile Include="StructEingabe.cpp" />
     <ClCompile Include="Swappy.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
