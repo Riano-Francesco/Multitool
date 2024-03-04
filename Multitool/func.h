@@ -79,5 +79,8 @@ void MoreStrings();
 void uebung11();
 void firstStruct();
 void EingabeStruct();
+void UnionStruct();
+void UnionStructKombi();
+void enumWoche();
 
 #endif

@@ -135,6 +135,7 @@
     <ClCompile Include="boolKneipe.cpp" />
     <ClCompile Include="boolSchaltjahr.cpp" />
     <ClCompile Include="Continue.cpp" />
+    <ClCompile Include="enumWoche.cpp" />
     <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
@@ -159,6 +160,8 @@
     <ClCompile Include="StructEingabe.cpp" />
     <ClCompile Include="Swappy.cpp" />
     <ClCompile Include="Tannenbaum.cpp" />
+    <ClCompile Include="UnionStruct.cpp" />
+    <ClCompile Include="UnionStructKombi.cpp" />
     <ClCompile Include="Unterfunktion.cpp" />
     <ClCompile Include="VoidFunktionen.cpp" />
     <ClCompile Include="IntQuadrat.cpp" />

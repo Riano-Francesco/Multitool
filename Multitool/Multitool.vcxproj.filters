@@ -201,6 +201,15 @@
     <ClCompile Include="StructEingabe.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
     </ClCompile>
+    <ClCompile Include="UnionStruct.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionStructKombi.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="enumWoche.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

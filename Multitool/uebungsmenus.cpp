@@ -634,6 +634,9 @@ void uebung11()
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | Strukturdaten ausgeben                  |" << endl;
 	cout << "   | 2 | Struktur mit Daten befüllen und ausgeben|" << endl;
+	cout << "   | 3 | Struktur mit Union ausgegeben           |" << endl;
+	cout << "   | 4 | Struktur mit Union Kombiniert           |" << endl;
+	cout << "   | 5 | Aufzählung mit enum Woche und Monate    | " << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -655,6 +658,24 @@ void uebung11()
 	case 2:
 		system("CLS");
 		EingabeStruct();
+		system("CLS");
+		break;
+
+	case 3:
+		system("CLS");
+		UnionStruct();
+		system("CLS");
+		break;
+
+	case 4:
+		system("CLS");
+		UnionStructKombi();
+		system("CLS");
+		break;
+
+	case 5:
+		system("CLS");
+		enumWoche();
 		system("CLS");
 		break;
 

@@ -61,3 +61,10 @@ void EingabeStruct() {
 	uebung11();
 }
 
+//// Union -> Alle Typen teilen sich einen Speicher - vom größten Element (hier der String) festgelegt
+//
+//union block {
+//	char string[10];
+//	int integer;		// 10 Byte - Voriger Wert wird immer vom neuen überschrieben, da der Speicher nicht reichen würde.
+//	double dbl;
+//};
