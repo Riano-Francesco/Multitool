@@ -83,4 +83,9 @@ void UnionStruct();
 void UnionStructKombi();
 void enumWoche();
 
+// 05.03.24
+void uebung12();
+void highercards();
+
+
 #endif

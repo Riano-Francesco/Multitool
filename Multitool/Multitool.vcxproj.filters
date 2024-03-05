@@ -76,6 +76,9 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\04.03.24">
       <UniqueIdentifier>{471f8ee3-defc-4bd0-88ba-45152f2617cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Februar 2024\05.03.24">
+      <UniqueIdentifier>{f41905f3-55e3-4115-89ab-0965e5bdba2d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -209,6 +212,9 @@
     </ClCompile>
     <ClCompile Include="enumWoche.cpp">
       <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Highercards.cpp">
+      <Filter>Quelldateien\Aufgaben\Februar 2024\05.03.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

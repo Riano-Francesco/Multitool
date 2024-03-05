@@ -14,7 +14,7 @@ void menu()
 	cout << "Welchen Tag wollen sie einsehen?" << endl << endl;
 
 	cout << "   +---+-------------------+" << endl;
-	cout << "   |___|______Februar______|" << endl;
+	cout << "   |___|____C++ Script_____|" << endl;
 	cout << "   |   |                   |" << endl;
 	cout << "   | 1 |     12.02.24      |" << endl;
 	cout << "   | 2 |     13.02.24      |" << endl;
@@ -27,6 +27,7 @@ void menu()
 	cout << "   | 9 |     22.02.24      |" << endl;
 	cout << "   |10 |     23.02.24      |" << endl;
 	cout << "   |11 |     04.03.24      |" << endl;
+	cout << "   |12 |     05.03.24      |" << endl;
 	cout << "   +---+-------------------+" << endl;
 	cout << endl;
 
@@ -101,6 +102,12 @@ void menu()
 	case 11:
 		system("CLS");
 		uebung11();
+		system("CLS");
+		break;
+
+	case 12:
+		system("CLS");
+		uebung12();
 		system("CLS");
 		break;
 

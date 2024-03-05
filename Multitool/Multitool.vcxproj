@@ -138,6 +138,7 @@
     <ClCompile Include="enumWoche.cpp" />
     <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
+    <ClCompile Include="Highercards.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
     <ClCompile Include="LeibnitzPi.cpp" />
     <ClCompile Include="MoreStrings.cpp" />
