@@ -77,14 +77,19 @@ void highercards() {
 		game::player first;
 		game::player second;
 
-		cout << "Name Player 1: ";
-		cin >> first.playername;
-		cout << "Name Player 2: ";
-		cin >> second.playername;
+		cout << "+-----------Welcome to Higher Cards-----------+" << endl;
+		cout << "|                                             |" << endl;
+		cout << "| Enter name for Player 1: "; cin >> first.playername;
+		cout << "| Enter name for Player 2: "; cin >> second.playername;
+		cout << "|                                             |" << endl;
+		cout << "+------------------PvP Game-------------------+" << endl;
 		cout << endl;
 
 		//cout << "Game start with: " << first.playername << " against " << second.playername << endl << endl;
-		cout << "Shuffle cards............" << endl << endl;
+		cout << "+---------------------------------------------+" << endl;
+		cout << "|................Shuffle cards................|" << endl;
+		cout << "+---------------------------------------------+" << endl << endl;
+		Sleep(500);
 
 		cards(deck, name, symbol, cardvalue);
 		shuffle(deck);
@@ -97,9 +102,10 @@ void highercards() {
 		first.cards[1] = deck[2];  // erster Spieler bekommt karte 2 (index 2)
 		second.cards[1] = deck[3]; // zweiter Spieler bekommt karte 2 (index 3)
 
-		cout << first.playername << "'s first card:  " << first.cards[0].symbol << " - " << first.cards[0].wert << endl;
+		cout << "+-------------Results of shuffling------------+" << "\n\n";
+		cout << first.playername <<  "'s first card:  " << first.cards[0].symbol << " - " << first.cards[0].wert << endl;
 		cout << second.playername << "'s first card:  " << second.cards[0].symbol << " - " << second.cards[0].wert << endl;
-		cout << first.playername << "'s second card:  " << first.cards[1].symbol << " - " << first.cards[1].wert << endl;
+		cout << first.playername <<  "'s second card:  " << first.cards[1].symbol << " - " << first.cards[1].wert << endl;
 		cout << second.playername << "'s second card:  " << second.cards[1].symbol << " - " << second.cards[1].wert << endl;
 		cout << endl;
 
