@@ -1,5 +1,5 @@
-#include <iostream>
-#include <windows.h>
+﻿#include <iostream>
+#include <windows.h> // ebenfalls für Zeichentabelle Nutzung
 #include <iomanip>
 #include <cmath>
 #include <cctype>
@@ -24,7 +24,7 @@ struct game {
 	};
 };
 
-enum name { Zwei = 0, Drei, Vier, Fuenf, Sechs, Sieben, Acht, Neun, Zehn, Bube, Dame, Koenig, Ass }; // Z�hlt automatisch einen hoch
+enum name { Zwei = 0, Drei, Vier, Fuenf, Sechs, Sieben, Acht, Neun, Zehn, Bube, Dame, Koenig, Ass }; // Zählt automatisch einen hoch
 enum symbol { Herz = 0, Karo, Pik, Kreuz };
 
 void cards(game::card* card, string name[], string symbol[], int wert[]) {
@@ -66,6 +66,7 @@ void highercards() {
 	bool abbruch;
 
 	do {
+		SetConsoleOutputCP(CP_UTF8);   // Consoleoutput auf UTF8 gestellt - Für Zeichentabelle Nutzung
 
 		Sleep(500);
 
@@ -86,9 +87,9 @@ void highercards() {
 		cout << endl;
 
 		//cout << "Game start with: " << first.playername << " against " << second.playername << endl << endl;
-		cout << "+---------------------------------------------+" << endl;
-		cout << ".................Shuffle cards................." << endl;
-		cout << "+---------------------------------------------+" << endl << endl;
+		cout << "┌─────────────────────────────────────────────┐" << endl;
+		cout << "├................Shuffle cards................┤" << endl;
+		cout << "└─────────────────────────────────────────────┘" << endl << endl;
 		Sleep(2000);
 
 		cards(deck, name, symbol, cardvalue);
@@ -148,7 +149,7 @@ void highercards() {
 //	};
 //};
 //
-//enum name { Zwei = 0, Drei, Vier, Fuenf, Sechs, Sieben, Acht, Neun, Zehn, Bube, Dame, Koenig, Ass }; // Z�hlt automatisch einen hoch
+//enum name { Zwei = 0, Drei, Vier, Fuenf, Sechs, Sieben, Acht, Neun, Zehn, Bube, Dame, Koenig, Ass }; // Zählt automatisch einen hoch
 //enum symbol { Herz = 0, Karo, Pik, Kreuz };
 //
 //void cards(game::card* card, char name[13][10], char symbol[4][6], int wert[]) {
