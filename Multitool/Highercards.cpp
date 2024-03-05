@@ -78,18 +78,18 @@ void highercards() {
 		game::player second;
 
 		cout << "+-----------Welcome to Higher Cards-----------+" << endl;
-		cout << "|                                             |" << endl;
-		cout << "| Enter name for Player 1: "; cin >> first.playername;
-		cout << "| Enter name for Player 2: "; cin >> second.playername;
-		cout << "|                                             |" << endl;
+		cout << "                                               " << endl;
+		cout << " Enter name for Player 1: "; cin >> first.playername;
+		cout << " Enter name for Player 2: "; cin >> second.playername;
+		cout << "                                               " << endl;
 		cout << "+------------------PvP Game-------------------+" << endl;
 		cout << endl;
 
 		//cout << "Game start with: " << first.playername << " against " << second.playername << endl << endl;
 		cout << "+---------------------------------------------+" << endl;
-		cout << "|................Shuffle cards................|" << endl;
+		cout << ".................Shuffle cards................." << endl;
 		cout << "+---------------------------------------------+" << endl << endl;
-		Sleep(500);
+		Sleep(2000);
 
 		cards(deck, name, symbol, cardvalue);
 		shuffle(deck);
@@ -102,22 +102,25 @@ void highercards() {
 		first.cards[1] = deck[2];  // erster Spieler bekommt karte 2 (index 2)
 		second.cards[1] = deck[3]; // zweiter Spieler bekommt karte 2 (index 3)
 
-		cout << "+-------------Results of shuffling------------+" << "\n\n";
+		cout << "+--------------Results of Dealing-------------+" << "\n\n";
 		cout << first.playername <<  "'s first card:  " << first.cards[0].symbol << " - " << first.cards[0].wert << endl;
-		cout << second.playername << "'s first card:  " << second.cards[0].symbol << " - " << second.cards[0].wert << endl;
+		cout << second.playername << "'s first card:  " << second.cards[0].symbol << " - " << second.cards[0].wert << endl << endl;
 		cout << first.playername <<  "'s second card:  " << first.cards[1].symbol << " - " << first.cards[1].wert << endl;
-		cout << second.playername << "'s second card:  " << second.cards[1].symbol << " - " << second.cards[1].wert << endl;
-		cout << endl;
+		cout << second.playername << "'s second card:  " << second.cards[1].symbol << " - " << second.cards[1].wert << endl << endl;
+		cout << "+---------------------------------------------+" << "\n\n";
 
 		int firstscore = first.cards[0].wert + first.cards[1].wert;
 		int secondscore = second.cards[0].wert + second.cards[1].wert;
 
 		if (firstscore < secondscore) {
 			cout << second.playername << " won this round with a score of " << secondscore << " !" << endl;
+			cout << first.playername << " lost this round with a score of " << firstscore << " !" << endl;
 		}
 		else {
 			cout << first.playername << " won this round with a score of " << firstscore << " !" << endl;
+			cout << second.playername << " lost this round with a score of " << secondscore << " !" << endl;
 		}
+		cout << "_______________________________________________" << "\n\n";
 
 		
 		cout << endl;
