@@ -706,10 +706,10 @@ void uebung12()
 	int auswahl;
 
 
-	cout << "   +---+--------| Übungen vom 05.03.24  |--------+" << endl;
+	cout << "   +---+--------| Übungen vom 06.03.24  |--------+" << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
-	cout << "   | 1 | Strukturdaten ausgeben                  |" << endl;
+	cout << "   | 1 | Higher Cards PvP Game                   |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 

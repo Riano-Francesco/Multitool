@@ -120,7 +120,6 @@ void highercards() {
 		}
 
 		
-
 		cout << endl;
 		abbruch = wiederholung();
 		system("CLS");
