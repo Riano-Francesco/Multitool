@@ -747,3 +747,79 @@ void uebung12()
 	}
 
 }
+
+void uebung13()
+{
+	system("chcp 1252"); system("cls");  // Ersteres das gleiche wie locale 
+
+	int auswahl;
+
+
+	cout << "   +---+--------| Übungen vom 06.03.24  |--------+" << endl;
+
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | Der AND Operator                        |" << endl;
+	cout << "   | 2 | Mit 4 Multiplizieren ohne Operator      |" << endl;
+	cout << "   | 3 | 1er Bits aus einer Zahl auslesen        |" << endl;
+	cout << "   | 4 | Dezimal in Binär umwandeln              |" << endl;
+	cout << "   | 5 | Textdatei mit ifstream & ofstream       |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << endl;
+
+	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
+	cout << "99 | Um zum Hauptmenü zu gelangen!" << endl << endl << endl;
+
+	cout << "Geben sie die Zahl an, um das Programm zu starten: " << endl;
+
+	cin >> auswahl;
+
+	switch (auswahl)
+	{
+	case 1:
+		system("CLS");
+		wahrfalsch();
+		system("CLS");
+		break;
+
+	case 2:
+		system("CLS");
+		multiOhne();
+		system("CLS");
+		break;
+
+	case 3:
+		system("CLS");
+		bitsi();
+		system("CLS");
+		break;
+
+	case 4:
+		system("CLS");
+		deztobin();
+		system("CLS");
+		break;
+
+	case 5:
+		system("CLS");
+		streams();
+		system("CLS");
+		break;
+
+	case 0:
+		cout << "Programm wird beendet." << endl;
+		Sleep(1000);
+		break;
+
+	case 99:
+		system("CLS");
+		menu();
+		Sleep(1000);
+		break;
+
+	default:
+		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
+		break;
+
+	}
+
+}

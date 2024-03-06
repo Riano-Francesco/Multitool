@@ -73,11 +73,17 @@
     <Filter Include="Quelldateien\Aufgaben\Februar 2024\23.02.24">
       <UniqueIdentifier>{eb71f6f7-b25a-464c-8ca9-daa319a6f626}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\Februar 2024\04.03.24">
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024">
+      <UniqueIdentifier>{ead47da8-3390-47d6-93c7-09dde6bf5471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\04.03.24">
       <UniqueIdentifier>{471f8ee3-defc-4bd0-88ba-45152f2617cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\Aufgaben\Februar 2024\05.03.24">
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\05.03.24">
       <UniqueIdentifier>{f41905f3-55e3-4115-89ab-0965e5bdba2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\06.03.24">
+      <UniqueIdentifier>{e0eea730-6316-46e5-88c3-d0333e94ce7e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -199,22 +205,37 @@
       <Filter>Quelldateien\Aufgaben\Februar 2024\23.02.24</Filter>
     </ClCompile>
     <ClCompile Include="firstStruct.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\04.03.24</Filter>
     </ClCompile>
     <ClCompile Include="StructEingabe.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\04.03.24</Filter>
     </ClCompile>
     <ClCompile Include="UnionStruct.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\04.03.24</Filter>
     </ClCompile>
     <ClCompile Include="UnionStructKombi.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\04.03.24</Filter>
     </ClCompile>
     <ClCompile Include="enumWoche.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\04.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\04.03.24</Filter>
     </ClCompile>
     <ClCompile Include="Highercards.cpp">
-      <Filter>Quelldateien\Aufgaben\Februar 2024\05.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\05.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="ANDoperator.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiOhne.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="BitsAusZahlLesen.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Dezimal&amp;Bits.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="if&amp;ofStream.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

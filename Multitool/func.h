@@ -87,5 +87,13 @@ void enumWoche();
 void uebung12();
 void highercards();
 
+// 06.03.24
+void uebung13();
+void wahrfalsch();
+void multiOhne();
+void bitsi();
+void deztobin();
+void streams();
+
 
 #endif

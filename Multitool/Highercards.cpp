@@ -66,8 +66,7 @@ void highercards() {
 	bool abbruch;
 
 	do {
-		SetConsoleOutputCP(CP_UTF8);   // Consoleoutput auf UTF8 gestellt - Für Zeichentabelle Nutzung
-
+		system("chcp 1252"); system("cls");  // Ersteres das gleiche wie locale 
 		Sleep(500);
 
 		string name[] = { "Zwei", "Drei", "Vier", "Fuenf", "Sechs", "Sieben", "Acht", "Neun", "Zehn", "Bube", "Dame", "Koenig", "Ass" };
@@ -78,18 +77,18 @@ void highercards() {
 		game::player first;
 		game::player second;
 
-		cout << "+-----------Welcome to Higher Cards-----------+" << endl;
+		cout << "+---------- Welcome to Higher Cards ----------+" << endl;
 		cout << "                                               " << endl;
 		cout << " Enter name for Player 1: "; cin >> first.playername;
 		cout << " Enter name for Player 2: "; cin >> second.playername;
 		cout << "                                               " << endl;
-		cout << "+------------------PvP Game-------------------+" << endl;
+		cout << "+----------------- PvP Game ------------------+" << endl;
 		cout << endl;
 
 		//cout << "Game start with: " << first.playername << " against " << second.playername << endl << endl;
-		cout << "┌─────────────────────────────────────────────┐" << endl;
-		cout << "├................Shuffle cards................┤" << endl;
-		cout << "└─────────────────────────────────────────────┘" << endl << endl;
+		cout << "+---------------------------------------------+" << endl;
+		cout << "|................Shuffle cards................|" << endl;
+		cout << "+---------------------------------------------+" << endl << endl;
 		Sleep(2000);
 
 		cards(deck, name, symbol, cardvalue);

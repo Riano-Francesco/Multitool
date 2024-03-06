@@ -1,6 +1,5 @@
 #include <iostream>
-#include <locale>  // Passt UTF an Sprache des Systems an
-
+#include <Windows.h>
 #include "func.h"
 
 using namespace std;
@@ -9,8 +8,8 @@ using namespace std;
 
 int main()
 {
+	SetConsoleOutputCP(CP_UTF8);   // Consoleoutput auf UTF8 gestellt - Für Zeichentabelle Nutzung
 
-	locale::global(locale(""));  // für Umlaute
 
 	menu();
 
