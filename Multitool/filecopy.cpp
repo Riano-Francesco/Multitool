@@ -36,6 +36,19 @@ void read(const char* name) {
 	}
 }
 
+void writecopy(const char* name) {
+	ifstream file(name);
+	ofstream copyfile("copy.txt");
+	char inp[160];
+
+	while (file.getline(inp, 160)) {
+		copyfile << inp << endl;
+	}
+	file.close();
+	copyfile.close();
+
+}
+
 
 void filecopy() {
 	bool abbruch;
