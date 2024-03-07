@@ -10,13 +10,13 @@
 
 using namespace std;
 
-void write(const char* name) {
+void writing(const char* name) {
 	ofstream writedata(name);
 	char inp[160];
 	if (writedata) {
 		cout << " : ";
 		cin.getline(inp, 160);
-		while (strcmp(inp, "-x")) { // Endbedingung
+		while (strcmp(inp, "-end")) { // Endbedingung
 			writedata << inp << endl;
 			cout << " : ";
 			cin.getline(inp, 160);
@@ -24,7 +24,7 @@ void write(const char* name) {
 	}
 }
 
-void read(const char* name) {
+void reading(const char* name) {
 	ifstream readdata(name);
 	char inp[160];
 	if (readdata) {
@@ -49,21 +49,37 @@ void writecopy(const char* name) {
 
 }
 
+//void copyparam(char* a, char* b) {
+//
+//	ifstream file(a);
+//	ofstream copyfile(b);
+//	char inp[160];
+//
+//	while (file.getline(inp, 160)) {
+//		copyfile << inp << endl;
+//	}
+//	file.close();
+//	copyfile.close();
+//}
 
-void filecopy() {
+void filecopy() { // (int argc, char** argv) in main für copypara
 	bool abbruch;
 
 	do {
 		system("chcp 1252"); system("cls");  // Ersteres das gleiche wie locale 
 
-		cout << "Eingabe: \n-----------------------" << endl;
-		write("temp.txt");
-		cout << "\nAusgabe: \n-----------------------" << endl;
-		read("temp.txt");
 		// Zum erstellen von Textdateien
+		cout << "Eingabe\n-----------------------" << endl;
+		writing("temp.txt");
+		cout << "\nAusgabe\n-----------------------" << endl;
+		reading("temp.txt");
 
 		// zum kopieren der erstellten datei
 		writecopy("temp.txt");
+
+		// In Konsole ausführen!!!
+		//C:\Users\R.Forni\source\repos\Test\x64\Debug>Test.exe "temp.txt" "fussnagel.txt"  Parameter kopiert und an neue datei übergeben
+		//copyparam(argv[1], argv[2]);
 
 
 		cout << endl;
