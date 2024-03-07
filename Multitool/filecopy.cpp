@@ -37,18 +37,21 @@ void read(const char* name) {
 }
 
 
-void streams() {
+void filecopy() {
 	bool abbruch;
 
 	do {
 		system("chcp 1252"); system("cls");  // Ersteres das gleiche wie locale 
 
-		cout << "Eingabe \n-----------------------" << endl;
-		write("temp.txt");   // write("temp.txt", ios::app) Sorgt dafür das vorhandenes nicht überschrieben wird sondern drunter gefügt/
-		cout << "\nAusgabe \n-----------------------" << endl;
+		cout << "Eingabe: \n-----------------------" << endl;
+		write("temp.txt");
+		cout << "\nAusgabe: \n-----------------------" << endl;
 		read("temp.txt");
-
 		// Zum erstellen von Textdateien
+
+		// zum kopieren der erstellten datei
+		writecopy("temp.txt");
+
 
 		cout << endl;
 		abbruch = wiederholung();

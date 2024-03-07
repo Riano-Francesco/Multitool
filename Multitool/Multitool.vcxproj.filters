@@ -85,6 +85,9 @@
     <Filter Include="Quelldateien\Aufgaben\Mai 2024\06.03.24">
       <UniqueIdentifier>{e0eea730-6316-46e5-88c3-d0333e94ce7e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\07.03.24">
+      <UniqueIdentifier>{8e3174d5-768e-47b4-9bcc-5e39a362bc1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -236,6 +239,9 @@
     </ClCompile>
     <ClCompile Include="if&amp;ofStream.cpp">
       <Filter>Quelldateien\Aufgaben\Mai 2024\06.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="filecopy.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\07.03.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

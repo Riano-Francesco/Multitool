@@ -138,6 +138,7 @@
     <ClCompile Include="Continue.cpp" />
     <ClCompile Include="Dezimal&amp;Bits.cpp" />
     <ClCompile Include="enumWoche.cpp" />
+    <ClCompile Include="filecopy.cpp" />
     <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
     <ClCompile Include="Highercards.cpp" />
