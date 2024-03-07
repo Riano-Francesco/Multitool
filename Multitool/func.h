@@ -98,6 +98,7 @@ void streams();
 // 07.03.24
 void uebung14();
 void filecopy();
+void randData();
 
 
 #endif

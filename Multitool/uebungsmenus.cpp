@@ -835,6 +835,7 @@ void uebung14()
 
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | Textdatei mit ifstream & ofstream & copy|" << endl;
+	cout << "   | 2 | Textdatei mit Werten füllen und prüfen  |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -853,6 +854,11 @@ void uebung14()
 		system("CLS");
 		break;
 
+	case 2:
+		system("CLS");
+		randData();
+		system("CLS");
+		break;
 	
 
 	case 0:

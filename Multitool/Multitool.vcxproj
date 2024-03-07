@@ -149,6 +149,7 @@
     <ClCompile Include="MultiArray.cpp" />
     <ClCompile Include="MultiOhne.cpp" />
     <ClCompile Include="PointerSwap.cpp" />
+    <ClCompile Include="randomWerte.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />
