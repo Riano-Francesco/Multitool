@@ -100,5 +100,8 @@ void uebung14();
 void filecopy();
 void randData();
 
+// 08.03.24
+void uebung15();
+void filehand();
 
 #endif

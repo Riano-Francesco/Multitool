@@ -22,8 +22,8 @@ void randomWerte(const char* name) {
 	}
 
 	for (int i = 0; i < 100; i++) { // 100 Random werte in Datei schreiben
-		werte = rand() / 100;
-		file << werte << endl;				// Werte an Datei/neue zeile anhängen
+		werte = rand() / 100.0;		// durch .0 bekommt man statt integer eine Dezimalzahl
+		file << werte << endl;		// Werte an Datei/neue zeile anhängen
 	}
 	cout << "100 Werte wurden in Datei: " << name << " gespeichert!" << endl;
 
@@ -50,5 +50,6 @@ void randData() {
 		system("CLS");
 	} while (abbruch);
 
-	uebung13();
+	uebung14();
 }
+
