@@ -246,6 +246,9 @@
     <ClCompile Include="randomWerte.cpp">
       <Filter>Quelldateien\Aufgaben\Mai 2024\07.03.24</Filter>
     </ClCompile>
+    <ClCompile Include="FileHandling.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\07.03.24</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

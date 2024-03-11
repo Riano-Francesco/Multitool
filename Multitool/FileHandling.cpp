@@ -20,6 +20,7 @@ void filehand() {
 
 		int input;
 		char a[81];
+		char b[81] = {};
 		char datname[15];
 		FILE* datptr;
 
@@ -45,9 +46,39 @@ void filehand() {
 			fclose(datptr);
 		}
 		datptr = fopen(datname, "r");
-		fgets(a, 80, datptr);
-		cout << "Die 1.te Zeile aus der Datei ";
-		cout << datname << " lautet " << a << endl;
+		
+		int countA = 0;
+		int countB = 0;
+		int countC = 0;
+
+		datptr = fopen(datname, "r");
+
+		int i = 0;
+		while (!feof(datptr)) {
+			fgets(b, 80, datptr); // gibt Zeile für Zeile aus
+
+			i = 0;
+
+			while (b[i] != '\0') {
+				if (b[i] == 'A' || b[i] == 'a') {
+					countA++;
+				}
+				if (b[i] == 'B' || b[i] == 'b') {
+					countB++;
+				}
+				if (b[i] == 'C' || b[i] == 'c') {
+					countC++;
+				}
+				i++;
+			}
+			b[0] = '\0';
+		}
+
+		FILE* datptr2 = fopen("count.txt", "w"); // w = Write
+		fprintf(datptr2, "Anzahl der A's: %d", countA);
+		fprintf(datptr2, "\nAnzahl der B's: %d", countB);
+		fprintf(datptr2, "\nAnzahl der C's: %d", countC); // %d = spezifizierungscharacter um einen komponenten als Integer zu interpretieren, um ihn dementsprechend zu zuweisen
+		fclose(datptr2);
 
 
 		cout << endl;
