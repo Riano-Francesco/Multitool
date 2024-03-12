@@ -40,7 +40,7 @@ void handleBinär() {
 			cout << "Wie oft sollen die Daten gespeichert werden: ";
 			cin >> data;
 
-			for (int i = 0; i < data; i++) {					// Schleife für die Menge wie oft Daten gespeichert werden..
+			for (int i = 1; i < data + 1; i++) {					// Schleife für die Menge wie oft Daten gespeichert werden..
 
 				fwrite(vname, sizeof(vname), 1, datptr);
 				fwrite(nname, sizeof(char), 20, datptr);
@@ -70,11 +70,17 @@ void handleBinär() {
 			cin >> daten;
 
 			while (!feof(datptr)) {
+				a = 0;
+
 				fread(vname, sizeof(vname), 1, datptr);
 				fread(nname, sizeof(nname), 1, datptr);
 				fread(&alter, sizeof(alter), 1, datptr);
 				fread(&groesse, sizeof(groesse), 1, datptr);
 				fread(&a, sizeof(a), 1, datptr);
+
+				if (a == 0) {
+					break;
+				}
 
 				if (daten == a) {
 					cout << "AdressNr: " << a << endl;
