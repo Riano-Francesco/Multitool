@@ -887,11 +887,10 @@ void uebung15()
 	int auswahl;
 
 
-	cout << "   +---+--------| Übungen vom 07.03.24  |--------+" << endl;
+	cout << "   +---+--------| Übungen vom 08.03.24  |--------+" << endl;
 
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << "   | 1 | File Handling mir C                     |" << endl;
-	cout << "   | 2 | Textdatei mit Werten füllen und prüfen  |" << endl;
 	cout << "   +---+-----------------------------------------+" << endl;
 	cout << endl;
 
@@ -911,6 +910,57 @@ void uebung15()
 		break;
 
 	
+
+
+	case 0:
+		cout << "Programm wird beendet." << endl;
+		Sleep(1000);
+		break;
+
+	case 99:
+		system("CLS");
+		menu();
+		Sleep(1000);
+		break;
+
+	default:
+		cout << "Ungültige Auswahl! Bitte versuchen sie es erneut." << endl;
+		break;
+
+	}
+
+}
+
+void uebung16()
+{
+	system("chcp 1252"); system("cls");  // Ersteres das gleiche wie locale 
+
+	int auswahl;
+
+
+	cout << "   +---+--------| Übungen vom 12.03.24  |--------+" << endl;
+
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   | 1 | File Handling mir C                     |" << endl;
+	cout << "   +---+-----------------------------------------+" << endl;
+	cout << endl;
+
+	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
+	cout << "99 | Um zum Hauptmenü zu gelangen!" << endl << endl << endl;
+
+	cout << "Geben sie die Zahl an, um das Programm zu starten: " << endl;
+
+	cin >> auswahl;
+
+	switch (auswahl)
+	{
+	case 1:
+		system("CLS");
+		handleBinär();
+		system("CLS");
+		break;
+
+
 
 
 	case 0:

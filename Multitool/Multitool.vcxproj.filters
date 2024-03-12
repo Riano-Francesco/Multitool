@@ -88,6 +88,12 @@
     <Filter Include="Quelldateien\Aufgaben\Mai 2024\07.03.24">
       <UniqueIdentifier>{8e3174d5-768e-47b4-9bcc-5e39a362bc1c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\12.03.24">
+      <UniqueIdentifier>{1d2b70fa-d991-4985-b1e0-cb79cb4f336d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\08.03.24">
+      <UniqueIdentifier>{f0697e9a-6861-4219-b35a-352fe7f04e71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -246,8 +252,11 @@
     <ClCompile Include="randomWerte.cpp">
       <Filter>Quelldateien\Aufgaben\Mai 2024\07.03.24</Filter>
     </ClCompile>
+    <ClCompile Include="handlingBinärDat.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\12.03.24</Filter>
+    </ClCompile>
     <ClCompile Include="FileHandling.cpp">
-      <Filter>Quelldateien\Aufgaben\Mai 2024\07.03.24</Filter>
+      <Filter>Quelldateien\Aufgaben\Mai 2024\08.03.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

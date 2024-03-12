@@ -31,6 +31,7 @@ void menu()
 	cout << "   |13 |     06.03.24      |" << endl;
 	cout << "   |14 |     07.03.24      |" << endl;
 	cout << "   |15 |     08.03.24      |" << endl;
+	cout << "   |16 |     12.03.24      |" << endl;
 	cout << "   +---+-------------------+" << endl;
 	cout << endl;
 
@@ -129,6 +130,12 @@ void menu()
 	case 15:
 		system("CLS");
 		uebung15();
+		system("CLS");
+		break;
+
+	case 16:
+		system("CLS");
+		uebung16();
 		system("CLS");
 		break;
 

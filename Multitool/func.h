@@ -104,4 +104,8 @@ void randData();
 void uebung15();
 void filehand();
 
+// 12.03.24
+void uebung16();
+void handleBinär();
+
 #endif

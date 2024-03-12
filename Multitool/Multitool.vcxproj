@@ -142,6 +142,7 @@
     <ClCompile Include="FileHandling.cpp" />
     <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
+    <ClCompile Include="handlingBinärDat.cpp" />
     <ClCompile Include="Highercards.cpp" />
     <ClCompile Include="if&amp;ofStream.cpp" />
     <ClCompile Include="KneipenWahl.cpp" />
