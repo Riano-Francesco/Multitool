@@ -10,6 +10,49 @@
 
 using namespace std;
 
+void datenSatzFinden()
+{
+	FILE* datptr;                           // Datei-Pointer erstellen
+	char vname[20], nname[20];
+	int alter, groesse;
+	datptr = fopen("test.txt", "rb");   // Datei öffnen
+
+	if (!datptr) {
+		cout << "Fehler beim Öffnen der Datei!";
+		return;
+	}
+	else {
+		fseek(datptr, 0, SEEK_END);         // Datei-Zeiger auf 0 setzen
+		size_t file_size = ftell(datptr);   // Dateigröße ermitteln
+
+		int pos = 1;
+		cout << "Welche Position soll ausgegeben werden? ";
+		cin >> pos;
+		int record_size = sizeof(vname) + sizeof(nname) + sizeof(alter) + sizeof(groesse);  // Datensatz-Größe ermitteln
+
+		pos -= 1;
+
+		if (pos * record_size >= file_size || pos < 0) {                    // Prüfen, ob Position außerhalb der Datei liegt oder negativ ist
+			std::cout << "Die Position liegt ausserhalb der Datei" << endl;
+			return;
+		}
+
+		fseek(datptr, pos * record_size, SEEK_SET);     // Dateizeiger auf gesuchten Datensatz positionieren
+
+		fread(vname, sizeof(vname), 1, datptr);         // Datensatz auslesen
+		fread(nname, sizeof(nname), 1, datptr);
+		fread(&alter, sizeof(alter), 1, datptr);
+		fread(&groesse, sizeof(groesse), 1, datptr);
+
+		cout << "\nPosition: " << pos + 1 << "\n------------------------------\n";  // Ausgabe des gesuchten Datensatzes
+		cout << "Vorname: " << vname << endl;
+		cout << "Nachname: " << nname << endl;
+		cout << "Alter: " << alter << endl;
+		cout << "Groesse: " << groesse << endl;
+	}
+
+	fclose(datptr);     // Datei schließen
+}
 
 void handleBinär() {
 	bool abbruch;
@@ -53,7 +96,9 @@ void handleBinär() {
 			cout << "Eingabe beendet!" << endl;
 		}
 
-		int a = 0;
+		datenSatzFinden();
+
+		/*int a = 0;
 		int daten = 0;
 		datptr = fopen("test.txt", "rb");
 		if (!datptr) {
@@ -93,7 +138,7 @@ void handleBinär() {
 
 
 			fclose(datptr);
-		}
+		}*/
 
 		cout << endl;
 		abbruch = wiederholung();
