@@ -140,6 +140,7 @@
     <ClCompile Include="enumWoche.cpp" />
     <ClCompile Include="filecopy.cpp" />
     <ClCompile Include="FileHandling.cpp" />
+    <ClCompile Include="firstClass.cpp" />
     <ClCompile Include="firstStruct.cpp" />
     <ClCompile Include="getLineString.cpp" />
     <ClCompile Include="handlingBinärDat.cpp">
@@ -153,7 +154,9 @@
     <ClCompile Include="MultiArray.cpp" />
     <ClCompile Include="MultiOhne.cpp" />
     <ClCompile Include="PointerSwap.cpp" />
+    <ClCompile Include="ProzSpeed.cpp" />
     <ClCompile Include="randomWerte.cpp" />
+    <ClCompile Include="RechteckClass.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />

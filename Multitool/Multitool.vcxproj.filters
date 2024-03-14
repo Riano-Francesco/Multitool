@@ -94,6 +94,15 @@
     <Filter Include="Quelldateien\Aufgaben\Mai 2024\08.03.24">
       <UniqueIdentifier>{f0697e9a-6861-4219-b35a-352fe7f04e71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\13.03.24">
+      <UniqueIdentifier>{8345c7aa-daaf-45e8-9dbc-f805bbc22087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\Objektorientiert">
+      <UniqueIdentifier>{39650f0c-d00c-427c-a295-431ddf356327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24">
+      <UniqueIdentifier>{afd49734-4433-433a-8437-fa98fa0821d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -257,6 +266,15 @@
     </ClCompile>
     <ClCompile Include="FileHandling.cpp">
       <Filter>Quelldateien\Aufgaben\Mai 2024\08.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="ProzSpeed.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\13.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="firstClass.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="RechteckClass.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -889,9 +889,10 @@ void uebung15()
 
 	cout << "   +---+--------| Übungen vom 08.03.24  |--------+" << endl;
 
-	cout << "   +---+-----------------------------------------+" << endl;
-	cout << "   | 1 | File Handling mir C                     |" << endl;
-	cout << "   +---+-----------------------------------------+" << endl;
+	cout << "   +---+--------------------------------------------+" << endl;
+	cout << "   | 1 | File Handling mir C                        |" << endl;
+	cout << "   | 2 | Prozessorzeit For-Loop für 10 Mio Schritte |" << endl;
+	cout << "   +---+--------------------------------------------+" << endl;
 	cout << endl;
 
 	cout << "0  | Um die Anwendung zu beenden!" << endl << endl << endl;
@@ -906,6 +907,12 @@ void uebung15()
 	case 1:
 		system("CLS");
 		filehand();
+		system("CLS");
+		break;
+
+	case 2:
+		system("CLS");
+		speed();
 		system("CLS");
 		break;
 

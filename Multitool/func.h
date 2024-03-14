@@ -107,5 +107,6 @@ void filehand();
 // 12.03.24
 void uebung16();
 void handleBinär();
+void speed();
 
 #endif
