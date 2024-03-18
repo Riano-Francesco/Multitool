@@ -1,5 +1,6 @@
 #ifndef FUNC_H
 #define FUNC_H
+using namespace std;
 
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
 
@@ -108,5 +109,22 @@ void filehand();
 void uebung16();
 void handleBinär();
 void speed();
+
+// 15.03.24
+void logger();
+
+class database {
+public:
+	void menu();
+	void toGet();
+	void choosefile();
+	void save();
+	void load();
+	void search();
+
+private:
+	vector < vector < string >> data;  // Wird nur hier gesetzt und ist dann überall als "data" verfügbar
+	string filename;
+};
 
 #endif

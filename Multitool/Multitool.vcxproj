@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adressenverwaltung.cpp" />
+    <ClCompile Include="Adressverwaltung.cpp" />
     <ClCompile Include="Adresswert.cpp" />
     <ClCompile Include="Array10.cpp" />
     <ClCompile Include="AsciiTab.cpp" />
@@ -157,6 +159,7 @@
     <ClCompile Include="ProzSpeed.cpp" />
     <ClCompile Include="randomWerte.cpp" />
     <ClCompile Include="RechteckClass.cpp" />
+    <ClCompile Include="RechteckScript.cpp" />
     <ClCompile Include="Schaltjahr.cpp" />
     <ClCompile Include="fläche.cpp" />
     <ClCompile Include="HauptAusgabe.cpp" />

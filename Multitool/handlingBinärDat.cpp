@@ -11,7 +11,7 @@
 using namespace std;
 
 void liste() {
-	FILE* datptr;                          // Datei-Pointer erstellen
+	FILE* datptr;                       // Datei-Pointer erstellen
 	char vname[20], nname[20];
 	int alter, groesse, i, list;
 	datptr = fopen("test.txt", "rb");   // Datei öffnen

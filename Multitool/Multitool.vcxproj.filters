@@ -103,6 +103,9 @@
     <Filter Include="Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24">
       <UniqueIdentifier>{afd49734-4433-433a-8437-fa98fa0821d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\Aufgaben\Mai 2024\Objektorientiert\15.03.24">
+      <UniqueIdentifier>{fa2e6f8d-082c-42ed-94e0-cae0a6d2b193}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core.cpp">
@@ -275,6 +278,15 @@
     </ClCompile>
     <ClCompile Include="RechteckClass.cpp">
       <Filter>Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="RechteckScript.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\Objektorientiert\14.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="Adressverwaltung.cpp">
+      <Filter>Quelldateien\Aufgaben\Mai 2024\Objektorientiert\15.03.24</Filter>
+    </ClCompile>
+    <ClCompile Include="adressenverwaltung.cpp">
+      <Filter>Quelldateien\Funktionen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
