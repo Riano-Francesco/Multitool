@@ -10,33 +10,6 @@
 
 using namespace std;
 
-void logger()
-{
-	cout << "Willkommen in der Adressverwaltung\n";
-	cout << "Bitte geben sie das Passwort ein: ";
-
-	string password;
-	cin >> password;
-
-	database DB;
-
-	for (int i = 1; i >= 0; i--) {
-		if (password == "123") {
-			cout << "Passwort korrekt!\n\n";
-			DB.menu();
-			break;
-		}
-		else {
-			cout << "Passwort falsch - bitte erneut Versuchen: ";
-			cin >> password;
-		}
-		while (i == 0) {
-			cout << "Passwort wurde 3 mal Falsch eingegeben!\n";
-			exit(0);
-		}
-	}
-}
-
 void database::menu() {
 	if (data.empty()) {
 		cout << "Welche Datei soll geöffnet werden? -> ";
@@ -45,6 +18,7 @@ void database::menu() {
 
 	cout << "1. Neue Adresse hinzufügen -> " << endl;
 	cout << "2. Adresse Suchen          -> " << endl;
+	cout << "3. Adresse Löschen         -> " << endl;
 
 	int choose = 0;
 	cin >> choose;
@@ -55,7 +29,11 @@ void database::menu() {
 		break;
 
 	case 2:
-		this->search();
+		this->show();
+		break;
+
+	case 3:
+		this->remove();
 		break;
 
 	default:
@@ -144,7 +122,6 @@ void database::load() {
 	string zeile;
 
 	while (getline(file, zeile)) {
-		// letter = "";
 		vector < string > getter;
 		string letter;
 
@@ -153,10 +130,8 @@ void database::load() {
 				letter += zeile[i];
 			}
 			else {
-				//	cout << letter << "\n";
 				getter.push_back(letter); // Speichert hier zelle für zelle
 				letter = "";
-
 			}
 		}
 		getter.push_back(letter);
@@ -165,18 +140,67 @@ void database::load() {
 	}
 }
 
-void database::search() {
+void database::show() {
 	string search;
-	cout << data.size();
-
-	cout << "\nGeben Sie einen Nachnamen ein: ";
+	cout << "Bitte geben Sie den Nachnamen ein: ";
 	cin >> search;
+
+	this->search(search);
+}
+
+int database::search(const string& search) {
+	vector < int > matches;
 
 	for (int i = 0; i < data.size(); i++) {
 		if (search.substr(0, 2) == data[i][1].substr(0, 2)) {  // substr(0, 2) -> 0 beginnt er, 2 ist die zweite stelle == data[i][1] -> i = durchlauf & 1 gleiche zweite stelle 
-			for (int j = 0; j < data[0].size(); j++) {
-				cout << data[i][j] << endl;
-			}
+			matches.push_back(i);
 		}
 	}
-};
+	if (matches.empty()) {
+		cout << "Kein Eintrag gefunden.";
+		return -1;
+	}
+	if (matches.size() == 1) {
+		int i = matches[0];
+		cout << "Eintrag wurde gefunden.";
+		cout << "Vorname: " << data[i][0] << endl;
+		cout << "Nachname: " << data[i][1] << endl;
+		cout << "Strasse: " << data[i][2] << endl;
+		cout << "Ort: " << data[i][3] << endl;
+		cout << "Postleitzahl: " << data[i][4] << endl;
+		return i;
+	}
+	else {
+		cout << matches.size() << " Einträge gefunden!" << endl << endl;
+		for (int i = 0; i < matches.size(); i++) {
+			int j = matches[i];
+			cout << i + 1 << " Ausgabe: " << data[j][0] << " " << data[j][1] << endl;
+		}
+		int option = 0;
+		cout << "\nWelchen Eintrag wollen Sie einsehen? -> ";
+		cin >> option;
+		cout << endl;
+
+		int i = matches[option - 1]; // um bei postition 0 zu beginnen 
+		cout << "Gewählte Ausgabe:" << endl;
+		cout << "Vorname: " << data[i][0] << endl;
+		cout << "Nachname: " << data[i][1] << endl;
+		cout << "Strasse: " << data[i][2] << endl;
+		cout << "Ort: " << data[i][3] << endl;
+		cout << "Postleitzahl: " << data[i][4] << endl;
+		return i;
+	}
+}
+
+
+void database::remove() {
+	string search;
+	cout << "Geben Sie einen Nachnamen ein. -> ";
+	cin >> search;
+
+	int i = this->search(search);
+
+	data.erase(data.begin() + i); // Löscht den Eintrag der gewählt wurde
+	cout << "Eintrag wurde gelöscht.\n";
+	this->save();
+}

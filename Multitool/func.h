@@ -1,5 +1,17 @@
 #ifndef FUNC_H
 #define FUNC_H
+#include <iostream>
+#include <windows.h> // ebenfalls für Zeichentabelle Nutzung
+#include <iomanip>
+#include <cmath>
+#include <cctype>
+#include <fstream>
+#include <ctime>
+#include <stdlib.h>
+#include <cstring>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
 bool wiederholung(); // bool gibt es nur 2 Werte : True oder False und 1 oder 0
@@ -111,6 +123,8 @@ void handleBinär();
 void speed();
 
 // 15.03.24
+void uebung17();
+void adressverwaltung();
 void logger();
 
 class database {
@@ -120,10 +134,12 @@ public:
 	void choosefile();
 	void save();
 	void load();
-	void search();
+	void show();
+	int search(const string&);
+	void remove();
 
 private:
-	vector < vector < string >> data;  // Wird nur hier gesetzt und ist dann überall als "data" verfügbar
+	vector < vector < string >> data; // Wird nur hier gesetzt und ist dann überall als "data" verfügbar
 	string filename;
 };
 
